@@ -14,7 +14,7 @@ func _ready() -> void:
 
 func tick(delta: float, direction := Vector2.ZERO, wants_to_jump := false, wants_to_run := false) -> void:
 	# Calcs
-	var mov_dir = (body.transform.basis * Vector3(direction.x, 0, direction.y))
+	var mov_dir = (body.transform.basis * Vector3(direction.x, 0, direction.y)).normalized()
 	var run := 0.0
 	
 	# Run

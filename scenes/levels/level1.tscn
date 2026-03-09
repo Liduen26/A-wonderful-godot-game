@@ -1,7 +1,6 @@
-[gd_scene format=3 uid="uid://cqvapn5gydgfe"]
+[gd_scene format=3 uid="uid://7rscqef6ip2q"]
 
-[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://assets/proto_controller/proto_controller.tscn" id="1_x6ivy"]
-[ext_resource type="Script" uid="uid://ildkat1prxsj" path="res://assets/proto_controller/proto_controller.gd" id="2_4tcl0"]
+[ext_resource type="PackedScene" uid="uid://0bb412wjo0ol" path="res://scenes/player.tscn" id="2_4tcl0"]
 [ext_resource type="Texture2D" uid="uid://btixunqiiyeap" path="res://assets/images/1232995.jpg" id="3_dd0lh"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_x6ivy"]
@@ -62,10 +61,6 @@ albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
 [sub_resource type="BoxShape3D" id="BoxShape3D_dd0lh"]
 
 [node name="Level1" type="Node3D" unique_id=568986103]
-
-[node name="ProtoController" parent="." unique_id=383002813 instance=ExtResource("1_x6ivy")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.544563)
-script = ExtResource("2_4tcl0")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=964263553]
 environment = SubResource("Environment_dd0lh")
@@ -135,3 +130,6 @@ mesh = SubResource("BoxMesh_bfxgj")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Room/Box/RigidBody3D" unique_id=379148967]
 shape = SubResource("BoxShape3D_dd0lh")
+
+[node name="Player" parent="." unique_id=1076630347 instance=ExtResource("2_4tcl0")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6967664, -6.564797)
