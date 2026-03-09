@@ -1,0 +1,137 @@
+[gd_scene format=3 uid="uid://cqvapn5gydgfe"]
+
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://assets/proto_controller/proto_controller.tscn" id="1_x6ivy"]
+[ext_resource type="Script" uid="uid://ildkat1prxsj" path="res://assets/proto_controller/proto_controller.gd" id="2_4tcl0"]
+[ext_resource type="Texture2D" uid="uid://btixunqiiyeap" path="res://assets/images/1232995.jpg" id="3_dd0lh"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_x6ivy"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_4tcl0"]
+sky_material = SubResource("ProceduralSkyMaterial_x6ivy")
+
+[sub_resource type="Environment" id="Environment_dd0lh"]
+background_mode = 2
+sky = SubResource("Sky_4tcl0")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_83ld5"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_5ntmo"]
+albedo_texture = ExtResource("3_dd0lh")
+uv1_scale = Vector3(15, 15, 15)
+uv1_triplanar = true
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_x6ivy"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_4tcl0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dywbp"]
+albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_4tcl0"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1seuy"]
+albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_dd0lh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_dd0lh"]
+albedo_color = Color(0.3647059, 0.16078432, 0.023529412, 1)
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_bfxgj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_bfxgj"]
+albedo_color = Color(0.3647059, 0.16078432, 0.023529412, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_dd0lh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_2r1tl"]
+albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_8a7m2"]
+albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_plydf"]
+albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_bfxgj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dd0lh"]
+
+[node name="Level1" type="Node3D" unique_id=568986103]
+
+[node name="ProtoController" parent="." unique_id=383002813 instance=ExtResource("1_x6ivy")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -8.544563)
+script = ExtResource("2_4tcl0")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=964263553]
+environment = SubResource("Environment_dd0lh")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=313081318]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+
+[node name="Room" type="StaticBody3D" parent="." unique_id=145541045]
+
+[node name="Floor" type="CSGMesh3D" parent="Room" unique_id=478102581]
+transform = Transform3D(20, 0, 0, 0, 0.1, 0, 0, 0, 20, 0, 0, 0)
+mesh = SubResource("BoxMesh_83ld5")
+material = SubResource("StandardMaterial3D_5ntmo")
+
+[node name="FloorCollide" type="CollisionShape3D" parent="Room" unique_id=266188982]
+transform = Transform3D(20, 0, 0, 0, 0.1, 0, 0, 0, 20, 0, 0, 0)
+shape = SubResource("BoxShape3D_x6ivy")
+
+[node name="DoorWall" type="CSGMesh3D" parent="Room" unique_id=1398445022]
+transform = Transform3D(20, 0, 0, 0, 10, 0, 0, 0, 1, 0, 5, -10)
+use_collision = true
+mesh = SubResource("BoxMesh_4tcl0")
+material = SubResource("StandardMaterial3D_dywbp")
+
+[node name="ExtrudeDoor" type="CSGMesh3D" parent="Room/DoorWall" unique_id=1057376550]
+transform = Transform3D(7.6427407e-16, 2.185569e-09, 0.14999998, 0.7999999, -4.371138e-09, 4.065421e-23, 3.496911e-07, 1, -1.3113416e-07, 0, -0.49999988, -0.03350544)
+operation = 2
+mesh = SubResource("CylinderMesh_4tcl0")
+material = SubResource("StandardMaterial3D_1seuy")
+
+[node name="Door" type="CSGMesh3D" parent="Room" unique_id=698137343]
+transform = Transform3D(1.5285484e-14, 4.371139e-09, 3, 8, -4.371139e-09, 0, 3.496911e-07, 0.1, -1.3113416e-07, 0, 0, -10)
+use_collision = true
+mesh = SubResource("CylinderMesh_dd0lh")
+material = SubResource("StandardMaterial3D_dd0lh")
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="Room/Door" unique_id=1567146648]
+transform = Transform3D(0.125, 0, -7.940934e-23, 1.1368684e-13, 2, -1.1368684e-13, 1.5881868e-22, 0, 0.33333334, 0.2268897, 0, 0)
+operation = 2
+mesh = SubResource("CylinderMesh_bfxgj")
+material = SubResource("StandardMaterial3D_bfxgj")
+
+[node name="Wall" type="CSGMesh3D" parent="Room" unique_id=1284811765]
+transform = Transform3D(20, 0, 0, 0, 10, 0, 0, 0, 1, 0, 5, 10)
+use_collision = true
+mesh = SubResource("BoxMesh_dd0lh")
+material = SubResource("StandardMaterial3D_2r1tl")
+
+[node name="Wall2" type="CSGMesh3D" parent="Room" unique_id=917192458]
+transform = Transform3D(-8.742278e-07, 0, 1, 0, 10, 0, -20, 0, -4.371139e-08, -10, 5, 0)
+use_collision = true
+mesh = SubResource("BoxMesh_dd0lh")
+material = SubResource("StandardMaterial3D_8a7m2")
+
+[node name="Wall3" type="CSGMesh3D" parent="Room" unique_id=1623032333]
+transform = Transform3D(-8.742278e-07, 0, 1, 0, 10, 0, -20, 0, -4.371139e-08, 10, 5, 0)
+use_collision = true
+mesh = SubResource("BoxMesh_dd0lh")
+material = SubResource("StandardMaterial3D_plydf")
+
+[node name="Box" type="CSGMesh3D" parent="Room" unique_id=680454835]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6764402, 0)
+use_collision = true
+mesh = SubResource("BoxMesh_bfxgj")
+
+[node name="RigidBody3D" type="RigidBody3D" parent="Room/Box" unique_id=849510243]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Room/Box/RigidBody3D" unique_id=379148967]
+shape = SubResource("BoxShape3D_dd0lh")
