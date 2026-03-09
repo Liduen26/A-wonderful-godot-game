@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://cutdqco4xwgbg"]
 
-[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://assets/proto_controller/proto_controller.tscn" id="1_72ix8"]
-[ext_resource type="Script" uid="uid://ildkat1prxsj" path="res://assets/proto_controller/proto_controller.gd" id="2_2vj2h"]
+[ext_resource type="PackedScene" uid="uid://0bb412wjo0ol" path="res://scenes/player.tscn" id="1_72ix8"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_72ix8"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -37,15 +36,12 @@ shadow_enabled = true
 [node name="Floor" type="StaticBody3D" parent="." unique_id=1132846736]
 
 [node name="CSGMesh3D" type="CSGMesh3D" parent="Floor" unique_id=1425766599]
-transform = Transform3D(10, 0, 0, 0, 0.1, 0, 0, 0, 10, 0, 0, 0)
+transform = Transform3D(20, 0, 0, 0, 0.1, 0, 0, 0, 10, 0, 0, 0)
 mesh = SubResource("BoxMesh_0ip28")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Floor" unique_id=2066040671]
-transform = Transform3D(10, 0, 0, 0, 0.1, 0, 0, 0, 10, 0, 0, 0)
+transform = Transform3D(20, 0, 0, 0, 0.1, 0, 0, 0, 10, 0, 0, 0)
 shape = SubResource("BoxShape3D_2vj2h")
-
-[node name="ProtoController" parent="." unique_id=383002813 instance=ExtResource("1_72ix8")]
-script = ExtResource("2_2vj2h")
 
 [node name="Arch" type="StaticBody3D" parent="." unique_id=510502966]
 
@@ -58,3 +54,6 @@ mesh = SubResource("BoxMesh_2vj2h")
 transform = Transform3D(1.6250877e-15, 4.3711377e-09, 0.44564942, 0.850526, -4.3711377e-09, 0, 3.7177674e-07, 0.9999998, -1.9479957e-07, 0, -0.41806185, -0.4915533)
 operation = 2
 mesh = SubResource("CylinderMesh_y0acb")
+
+[node name="Player" parent="." unique_id=1076630347 instance=ExtResource("1_72ix8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.13973045, 1.0499992, 1.3839898)
