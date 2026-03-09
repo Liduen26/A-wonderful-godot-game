@@ -3,6 +3,7 @@
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://assets/proto_controller/proto_controller.tscn" id="1_x6ivy"]
 [ext_resource type="Script" uid="uid://ildkat1prxsj" path="res://assets/proto_controller/proto_controller.gd" id="2_4tcl0"]
 [ext_resource type="Texture2D" uid="uid://btixunqiiyeap" path="res://assets/images/1232995.jpg" id="3_dd0lh"]
+[ext_resource type="Script" uid="uid://paprks81qwmx" path="res://scripts/can_be_pushed.gd" id="4_bfxgj"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_x6ivy"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -56,6 +57,10 @@ albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_plydf"]
 albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_bfxgj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_dd0lh"]
 
 [node name="Level1" type="Node3D" unique_id=568986103]
 
@@ -121,3 +126,17 @@ transform = Transform3D(-8.742278e-07, 0, 1, 0, 10, 0, -20, 0, -4.371139e-08, 10
 use_collision = true
 mesh = SubResource("BoxMesh_dd0lh")
 material = SubResource("StandardMaterial3D_plydf")
+
+[node name="Box" type="CSGMesh3D" parent="Room" unique_id=680454835]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6764402, 0)
+use_collision = true
+mesh = SubResource("BoxMesh_bfxgj")
+
+[node name="RigidBody3D" type="RigidBody3D" parent="Room/Box" unique_id=849510243]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Room/Box/RigidBody3D" unique_id=379148967]
+shape = SubResource("BoxShape3D_dd0lh")
+
+[node name="CanBePushed" type="Node" parent="Room/Box/RigidBody3D" unique_id=847656370]
+script = ExtResource("4_bfxgj")
+metadata/_custom_type_script = "uid://paprks81qwmx"
