@@ -1,3 +1,60 @@
 [gd_scene format=3 uid="uid://cutdqco4xwgbg"]
 
+[ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://assets/proto_controller/proto_controller.tscn" id="1_72ix8"]
+[ext_resource type="Script" uid="uid://ildkat1prxsj" path="res://assets/proto_controller/proto_controller.gd" id="2_2vj2h"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_72ix8"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_2vj2h"]
+sky_material = SubResource("ProceduralSkyMaterial_72ix8")
+
+[sub_resource type="Environment" id="Environment_y0acb"]
+background_mode = 2
+sky = SubResource("Sky_2vj2h")
+tonemap_mode = 2
+glow_enabled = true
+
+[sub_resource type="BoxMesh" id="BoxMesh_0ip28"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2vj2h"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_2vj2h"]
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_y0acb"]
+radial_segments = 20
+
 [node name="Main" type="Node3D" unique_id=1391079648]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=497158716]
+environment = SubResource("Environment_y0acb")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=625712296]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Floor" type="StaticBody3D" parent="." unique_id=1132846736]
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="Floor" unique_id=1425766599]
+transform = Transform3D(10, 0, 0, 0, 0.1, 0, 0, 0, 10, 0, 0, 0)
+mesh = SubResource("BoxMesh_0ip28")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Floor" unique_id=2066040671]
+transform = Transform3D(10, 0, 0, 0, 0.1, 0, 0, 0, 10, 0, 0, 0)
+shape = SubResource("BoxShape3D_2vj2h")
+
+[node name="ProtoController" parent="." unique_id=383002813 instance=ExtResource("1_72ix8")]
+script = ExtResource("2_2vj2h")
+
+[node name="Arch" type="StaticBody3D" parent="." unique_id=510502966]
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="Arch" unique_id=1034682027]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 1, 0, 4.392037, -4.3906183)
+use_collision = true
+mesh = SubResource("BoxMesh_2vj2h")
+
+[node name="CSGMesh3D2" type="CSGMesh3D" parent="Arch/CSGMesh3D" unique_id=1217135913]
+transform = Transform3D(1.6250877e-15, 4.3711377e-09, 0.44564942, 0.850526, -4.3711377e-09, 0, 3.7177674e-07, 0.9999998, -1.9479957e-07, 0, -0.41806185, -0.4915533)
+operation = 2
+mesh = SubResource("CylinderMesh_y0acb")
