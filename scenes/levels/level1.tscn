@@ -3,7 +3,6 @@
 [ext_resource type="PackedScene" uid="uid://bs72ogkvdd7d6" path="res://assets/proto_controller/proto_controller.tscn" id="1_x6ivy"]
 [ext_resource type="Script" uid="uid://ildkat1prxsj" path="res://assets/proto_controller/proto_controller.gd" id="2_4tcl0"]
 [ext_resource type="Texture2D" uid="uid://btixunqiiyeap" path="res://assets/images/1232995.jpg" id="3_dd0lh"]
-[ext_resource type="Script" uid="uid://paprks81qwmx" path="res://scripts/can_be_pushed.gd" id="4_bfxgj"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_x6ivy"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -136,7 +135,3 @@ mesh = SubResource("BoxMesh_bfxgj")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="Room/Box/RigidBody3D" unique_id=379148967]
 shape = SubResource("BoxShape3D_dd0lh")
-
-[node name="CanBePushed" type="Node" parent="Room/Box/RigidBody3D" unique_id=847656370]
-script = ExtResource("4_bfxgj")
-metadata/_custom_type_script = "uid://paprks81qwmx"
