@@ -143,6 +143,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.532238, -1.2613518)
 
 [node name="Player" parent="." unique_id=1076630347 instance=ExtResource("2_4tcl0")]
 transform = Transform3D(-0.54934376, 0, 0.83559644, 0, 1, 0, -0.83559644, 0, -0.54934376, 5.1141872, 1.6967659, 2.6363273)
+collision_layer = 4
 
 [node name="Ground Button" parent="." unique_id=1166594780 instance=ExtResource("3_bfxgj")]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -5.3296776, 0.049999237, 4.5709887)

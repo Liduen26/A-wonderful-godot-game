@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://bhngsumk6imav"]
 
 [ext_resource type="PackedScene" uid="uid://b7rilxhqeemmb" path="res://assets/Button v1.blend" id="1_foth2"]
+[ext_resource type="Script" uid="uid://drlpr1ltbduyt" path="res://scripts/be_activated_component.gd" id="2_7laod"]
 [ext_resource type="Script" uid="uid://diofmrny0pcjn" path="res://scripts/stay_pressed_component.gd" id="2_m2hgu"]
 
 [node name="Ground Button" type="Node3D" unique_id=1166594780]
@@ -13,5 +14,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.062435508, 1.1920929e-07, -
 script = ExtResource("2_m2hgu")
 visualFeedbackNode = NodePath("../Button v1/ButtonActivable")
 metadata/_custom_type_script = "uid://diofmrny0pcjn"
+
+[node name="BeActivatedComponent" type="Node" parent="." unique_id=192232288 node_paths=PackedStringArray("activable_mesh")]
+script = ExtResource("2_7laod")
+activable_mesh = NodePath("../Button v1/ButtonActivable")
+metadata/_custom_type_script = "uid://drlpr1ltbduyt"
 
 [editable path="Button v1"]

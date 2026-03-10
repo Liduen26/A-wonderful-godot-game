@@ -17,18 +17,18 @@ func _ready() -> void:
 	initialPos = visualFeedbackNode.transform.origin
 	
 
-func _process(delta: float) -> void:
-	var mov_vector: Vector3 = movement_direction * movement_speed * delta
-	if activated:
-		visualFeedbackNode.translate(mov_vector)
-	else:
-		#if not top_reached(visualFeedbackNode):
-		visualFeedbackNode.translate(-mov_vector)
+#func _process(delta: float) -> void:
+	#var mov_vector: Vector3 = movement_direction * movement_speed * delta
+	#if activated:
+		#visualFeedbackNode.translate(mov_vector)
+	#else:
+		##if not top_reached(visualFeedbackNode):
+		#visualFeedbackNode.translate(-mov_vector)
 		
 	
-func top_reached(visualFeedbackNode: Node3D) -> bool:
-	return visualFeedbackNode.get_poi 
-	return false
+#func top_reached(visualFeedbackNode: Node3D) -> bool:
+	#return visualFeedbackNode.get_poi 
+	#return false
 	
 
 #func is_touching_activator() -> bool:

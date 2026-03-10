@@ -16,7 +16,7 @@ func _ready() -> void:
 	_saved_collision_layer = _object.collision_layer
 	_saved_collision_mask = _object.collision_mask
 
-func _input(event: InputEvent) -> void:
+func _input(_event: InputEvent) -> void:
 	if Input.is_action_just_pressed("action"):
 		if is_held:
 			_drop()
