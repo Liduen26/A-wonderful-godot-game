@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://saf84aastnrc" path="res://scripts/can_be_picked_up_component.gd" id="2_dd0lh"]
 [ext_resource type="Texture2D" uid="uid://c12crrh0owh7l" path="res://assets/images/b39cdb0a59ee4ed1f28d92a906e19c52.jpg" id="3_bfxgj"]
 [ext_resource type="Texture2D" uid="uid://btixunqiiyeap" path="res://assets/images/1232995.jpg" id="3_dd0lh"]
+[ext_resource type="PackedScene" uid="uid://bbqxxn472pt2a" path="res://scenes/cube.tscn" id="4_dywbp"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_x6ivy"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -139,9 +140,13 @@ script = ExtResource("2_dd0lh")
 metadata/_custom_type_script = "uid://saf84aastnrc"
 
 [node name="Box" type="CSGMesh3D" parent="Room/RigidBody3D" unique_id=680454835]
+layers = 4
 use_collision = true
 mesh = SubResource("BoxMesh_bfxgj")
 material = SubResource("StandardMaterial3D_nkeig")
+
+[node name="RigidBody3D2" parent="Room" unique_id=772982042 instance=ExtResource("4_dywbp")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.380251, 0.9871812, 0)
 
 [node name="Player" parent="." unique_id=1076630347 instance=ExtResource("2_4tcl0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6967664, -6.564797)

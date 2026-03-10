@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://bbqxxn472pt2a"]
+
+[ext_resource type="Texture2D" uid="uid://c12crrh0owh7l" path="res://assets/images/b39cdb0a59ee4ed1f28d92a906e19c52.jpg" id="1_7ufek"]
+[ext_resource type="Script" uid="uid://saf84aastnrc" path="res://scripts/can_be_picked_up_component.gd" id="2_8viuf"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8viuf"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8viuf"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_i7q2r"]
+albedo_texture = ExtResource("1_7ufek")
+uv1_scale = Vector3(3, 2, 1)
+
+[node name="RigidBody3D" type="RigidBody3D" unique_id=772982042]
+collision_layer = 4
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=700660097]
+shape = SubResource("BoxShape3D_8viuf")
+
+[node name="CSGMesh3D" type="CSGMesh3D" parent="." unique_id=1539925862]
+use_collision = true
+mesh = SubResource("BoxMesh_8viuf")
+material = SubResource("StandardMaterial3D_i7q2r")
+
+[node name="CanBePickedUpComponent" type="Node" parent="." unique_id=568528798]
+script = ExtResource("2_8viuf")
+metadata/_custom_type_script = "uid://saf84aastnrc"
