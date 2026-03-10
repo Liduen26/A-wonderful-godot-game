@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://cqvapn5gydgfe"]
 
 [ext_resource type="PackedScene" uid="uid://0bb412wjo0ol" path="res://scenes/player.tscn" id="2_4tcl0"]
+[ext_resource type="PackedScene" uid="uid://bhngsumk6imav" path="res://scenes/ground_button.tscn" id="3_bfxgj"]
 [ext_resource type="Texture2D" uid="uid://btixunqiiyeap" path="res://assets/images/1232995.jpg" id="3_dd0lh"]
 [ext_resource type="PackedScene" uid="uid://bbqxxn472pt2a" path="res://scenes/cube.tscn" id="4_dywbp"]
 
@@ -63,7 +64,7 @@ albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
 environment = SubResource("Environment_dd0lh")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=313081318]
-transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+transform = Transform3D(-0.8660255, -0.43301287, 0.24999997, -0.3013952, 0.85104257, 0.42998558, -0.3989499, 0.29702967, -0.8675325, 0, 0, 0)
 
 [node name="Room" type="StaticBody3D" parent="." unique_id=145541045]
 
@@ -113,7 +114,7 @@ mesh = SubResource("BoxMesh_dd0lh")
 material = SubResource("StandardMaterial3D_8a7m2")
 
 [node name="Wall3" type="CSGMesh3D" parent="Room" unique_id=1623032333]
-transform = Transform3D(-8.742278e-07, 0, 1, 0, 10, 0, -20, 0, -4.371139e-08, 10, 5, 0)
+transform = Transform3D(-8.742278e-07, 0, 1, 0, 10, 0, -20, 0, -4.371139e-08, 9.999933, 5.000183, 8.106232e-06)
 use_collision = true
 mesh = SubResource("BoxMesh_dd0lh")
 material = SubResource("StandardMaterial3D_plydf")
@@ -122,5 +123,7 @@ material = SubResource("StandardMaterial3D_plydf")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6021967, 1.0697703, 0)
 
 [node name="Player" parent="." unique_id=1076630347 instance=ExtResource("2_4tcl0")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6967664, -6.564797)
-collision_layer = 2
+transform = Transform3D(-0.54934376, 0, 0.83559644, 0, 1, 0, -0.83559644, 0, -0.54934376, 5.1141872, 1.6967659, 2.6363273)
+
+[node name="Ground Button" parent="." unique_id=1166594780 instance=ExtResource("3_bfxgj")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -5.3296776, 0.049999237, 4.5709887)

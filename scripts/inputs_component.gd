@@ -27,8 +27,6 @@ func _unhandled_input(event: InputEvent) -> void:
 	if mouse_captured and event is InputEventMouseMotion:
 		look_direction = event.relative
 	
-	print(look_direction)
-
 
 
 func capture_mouse() -> void:

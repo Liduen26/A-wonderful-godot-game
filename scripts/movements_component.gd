@@ -9,7 +9,7 @@ class_name MovementsComponents extends Node
 
 func _ready() -> void:
 	if body == null:
-		printerr("No body set! Set it in the inspector of MovementsComponent")
+		printerr("No body set! Set it in the inspector of " + str(self))
 		return
 
 func tick(delta: float, direction := Vector2.ZERO, wants_to_jump := false, wants_to_run := false) -> void:
