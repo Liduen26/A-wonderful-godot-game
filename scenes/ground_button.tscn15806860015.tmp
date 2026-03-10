@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://bhngsumk6imav"]
+
+[ext_resource type="PackedScene" uid="uid://b7rilxhqeemmb" path="res://assets/Button v1.blend" id="1_foth2"]
+[ext_resource type="Script" uid="uid://diofmrny0pcjn" path="res://scripts/stay_pressed_component.gd" id="2_m2hgu"]
+
+[node name="Ground Button" type="Node3D" unique_id=1166594780]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+
+[node name="Button v1" parent="." unique_id=1770643562 instance=ExtResource("1_foth2")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.062435508, 1.1920929e-07, -0.056573153)
+
+[node name="StayPressedComponent" type="Node" parent="." unique_id=62424974 node_paths=PackedStringArray("visualFeedbackNode")]
+script = ExtResource("2_m2hgu")
+visualFeedbackNode = NodePath("../Button v1/ButtonActivable")
+movement = Vector3(0, -1, 0)
+metadata/_custom_type_script = "uid://diofmrny0pcjn"
+
+[editable path="Button v1"]

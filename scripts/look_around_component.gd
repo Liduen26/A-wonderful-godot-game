@@ -9,7 +9,7 @@ var look_rotation: Vector2
 
 func _ready() -> void:
 	if body == null:
-		printerr("No body set! Set it in the inspector of MovementsComponent")
+		printerr("No body set! Set it in the inspector of " + str(self))
 		return
 		
 	look_rotation.y = body.rotation.y
