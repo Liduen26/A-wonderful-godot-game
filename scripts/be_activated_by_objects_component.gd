@@ -1,4 +1,4 @@
-class_name BeActivatedComponent extends Node
+class_name BeActivatedByObjectComponent extends Node
 
 @export var activable_mesh: Node3D
 @export var is_activated: bool = false
