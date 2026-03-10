@@ -2,6 +2,7 @@
 
 [ext_resource type="PackedScene" uid="uid://0bb412wjo0ol" path="res://scenes/player.tscn" id="2_4tcl0"]
 [ext_resource type="Script" uid="uid://saf84aastnrc" path="res://scripts/can_be_picked_up_component.gd" id="2_dd0lh"]
+[ext_resource type="Texture2D" uid="uid://c12crrh0owh7l" path="res://assets/images/b39cdb0a59ee4ed1f28d92a906e19c52.jpg" id="3_bfxgj"]
 [ext_resource type="Texture2D" uid="uid://btixunqiiyeap" path="res://assets/images/1232995.jpg" id="3_dd0lh"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_x6ivy"]
@@ -60,6 +61,10 @@ albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
 [sub_resource type="BoxShape3D" id="BoxShape3D_dd0lh"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_bfxgj"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_nkeig"]
+albedo_texture = ExtResource("3_bfxgj")
+uv1_scale = Vector3(3, 2, 1)
 
 [node name="Level1" type="Node3D" unique_id=568986103]
 
@@ -136,6 +141,7 @@ metadata/_custom_type_script = "uid://saf84aastnrc"
 [node name="Box" type="CSGMesh3D" parent="Room/RigidBody3D" unique_id=680454835]
 use_collision = true
 mesh = SubResource("BoxMesh_bfxgj")
+material = SubResource("StandardMaterial3D_nkeig")
 
 [node name="Player" parent="." unique_id=1076630347 instance=ExtResource("2_4tcl0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.6967664, -6.564797)
