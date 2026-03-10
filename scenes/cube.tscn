@@ -11,7 +11,7 @@
 albedo_texture = ExtResource("1_7ufek")
 uv1_scale = Vector3(3, 2, 1)
 
-[node name="RigidBody3D" type="RigidBody3D" unique_id=772982042]
+[node name="Cube" type="RigidBody3D" unique_id=772982042]
 collision_layer = 4
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=700660097]
