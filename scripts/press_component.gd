@@ -4,7 +4,6 @@ class_name PressComponent extends Node
 @export var activated := false
 @export var pressed_position := Vector3(0.0, -1.0, 0.0)
 @export var movement_speed := 5.0
-@export var light := Light3D
 
 signal output_active(bool)
 
@@ -24,12 +23,10 @@ func _process(delta: float) -> void:
 	if activated:
 		if pressed_pos_reached():
 			output_active.emit(true)
-			light.light_color = Color(Color.GREEN)
 		else:
 			visual_feedback_node.translate(mov_vector)
 	else:
 		output_active.emit(false)
-		light.light_color = Color(Color.RED)
 		if not initial_pos_reached():
 			visual_feedback_node.translate(-mov_vector)
 
