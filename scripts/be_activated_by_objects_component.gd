@@ -27,10 +27,8 @@ func _physics_process(_delta: float) -> void:
 	if count > 0 and not is_activated:
 		is_activated = true
 		status_changed.emit(is_activated)
-		print("Button activated!")
 	elif count == 0 and is_activated:
 		is_activated = false
 		status_changed.emit(is_activated)
-		print("Button deactivated!")
 	
 	_bodies_on_button = count
