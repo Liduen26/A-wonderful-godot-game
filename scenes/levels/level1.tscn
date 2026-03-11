@@ -70,75 +70,79 @@ transform = Transform3D(-0.8660255, -0.43301287, 0.24999997, -0.3013952, 0.85104
 
 [node name="Room" type="StaticBody3D" parent="." unique_id=145541045]
 
-[node name="Floor" type="CSGMesh3D" parent="Room" unique_id=478102581]
+[node name="Floor_Walls" type="StaticBody3D" parent="Room" unique_id=1163544814]
+
+[node name="Floor" type="CSGMesh3D" parent="Room/Floor_Walls" unique_id=478102581]
 transform = Transform3D(20, 0, 0, 0, 0.1, 0, 0, 0, 20, 0, 0, 0)
 mesh = SubResource("BoxMesh_83ld5")
 material = SubResource("StandardMaterial3D_5ntmo")
 
-[node name="FloorCollide" type="CollisionShape3D" parent="Room" unique_id=266188982]
+[node name="FloorCollide" type="CollisionShape3D" parent="Room/Floor_Walls" unique_id=266188982]
 transform = Transform3D(20, 0, 0, 0, 0.1, 0, 0, 0, 20, 0, 0, 0)
 shape = SubResource("BoxShape3D_x6ivy")
 
-[node name="DoorWall" type="CSGMesh3D" parent="Room" unique_id=1398445022]
+[node name="DoorWall" type="CSGMesh3D" parent="Room/Floor_Walls" unique_id=1398445022]
 transform = Transform3D(20, 0, 0, 0, 10, 0, 0, 0, 1, 0, 5, -10)
 use_collision = true
 mesh = SubResource("BoxMesh_4tcl0")
 material = SubResource("StandardMaterial3D_dywbp")
 
-[node name="ExtrudeDoor" type="CSGMesh3D" parent="Room/DoorWall" unique_id=1057376550]
+[node name="ExtrudeDoor" type="CSGMesh3D" parent="Room/Floor_Walls/DoorWall" unique_id=1057376550]
 transform = Transform3D(7.6427407e-16, 2.185569e-09, 0.14999998, 0.7999999, -4.371138e-09, 4.065421e-23, 3.496911e-07, 1, -1.3113416e-07, 0, -0.49999988, -0.03350544)
 operation = 2
 mesh = SubResource("CylinderMesh_4tcl0")
 material = SubResource("StandardMaterial3D_1seuy")
 
-[node name="Door" type="CSGMesh3D" parent="Room" unique_id=698137343]
+[node name="Door" type="CSGMesh3D" parent="Room/Floor_Walls" unique_id=698137343]
 transform = Transform3D(1.5285484e-14, 4.371139e-09, 3, 8, -4.371139e-09, 0, 3.496911e-07, 0.1, -1.3113416e-07, 0, 0, -10)
 use_collision = true
 mesh = SubResource("CylinderMesh_dd0lh")
 material = SubResource("StandardMaterial3D_dd0lh")
 
-[node name="CSGMesh3D" type="CSGMesh3D" parent="Room/Door" unique_id=1567146648]
+[node name="CSGMesh3D" type="CSGMesh3D" parent="Room/Floor_Walls/Door" unique_id=1567146648]
 transform = Transform3D(0.125, 0, -7.940934e-23, 1.1368684e-13, 2, -1.1368684e-13, 1.5881868e-22, 0, 0.33333334, 0.2268897, 0, 0)
 operation = 2
 mesh = SubResource("CylinderMesh_bfxgj")
 material = SubResource("StandardMaterial3D_bfxgj")
 
-[node name="Wall" type="CSGMesh3D" parent="Room" unique_id=1284811765]
+[node name="Wall" type="CSGMesh3D" parent="Room/Floor_Walls" unique_id=1284811765]
 transform = Transform3D(20, 0, 0, 0, 10, 0, 0, 0, 1, 0, 5, 10)
 use_collision = true
 mesh = SubResource("BoxMesh_dd0lh")
 material = SubResource("StandardMaterial3D_2r1tl")
 
-[node name="Wall2" type="CSGMesh3D" parent="Room" unique_id=917192458]
+[node name="Wall2" type="CSGMesh3D" parent="Room/Floor_Walls" unique_id=917192458]
 transform = Transform3D(-8.742278e-07, 0, 1, 0, 10, 0, -20, 0, -4.371139e-08, -10, 5, 0)
 use_collision = true
 mesh = SubResource("BoxMesh_dd0lh")
 material = SubResource("StandardMaterial3D_8a7m2")
 
-[node name="Wall3" type="CSGMesh3D" parent="Room" unique_id=1623032333]
+[node name="Wall3" type="CSGMesh3D" parent="Room/Floor_Walls" unique_id=1623032333]
 transform = Transform3D(-8.742278e-07, 0, 1, 0, 10, 0, -20, 0, -4.371139e-08, 9.999933, 5.000183, 8.106232e-06)
 use_collision = true
 mesh = SubResource("BoxMesh_dd0lh")
 material = SubResource("StandardMaterial3D_plydf")
 
-[node name="CSGMesh3D" type="CSGMesh3D" parent="Room/Wall3" unique_id=471503820]
+[node name="CSGMesh3D" type="CSGMesh3D" parent="Room/Floor_Walls/Wall3" unique_id=471503820]
 transform = Transform3D(-4.371139e-09, 0, -0.099999994, 0, 0.19999999, 0, 2, 0, -8.742278e-08, -0.050301425, -0.32027292, -0.17862225)
 operation = 2
 mesh = SubResource("BoxMesh_bfxgj")
 
-[node name="Cube" parent="Room" unique_id=772982042 instance=ExtResource("4_dywbp")]
+[node name="Objects" type="StaticBody3D" parent="Room" unique_id=1651556031]
+
+[node name="Cube" parent="Room/Objects" unique_id=772982042 instance=ExtResource("4_dywbp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.6021967, 1.0697703, 0)
 
-[node name="Cube2" parent="Room" unique_id=1232342079 instance=ExtResource("4_dywbp")]
+[node name="Cube2" parent="Room/Objects" unique_id=1232342079 instance=ExtResource("4_dywbp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.1383843, 3.3278363)
 
-[node name="Cube3" parent="Room" unique_id=633561705 instance=ExtResource("4_dywbp")]
+[node name="Cube3" parent="Room/Objects" unique_id=633561705 instance=ExtResource("4_dywbp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8062873, 0)
 
-[node name="Cube4" parent="Room" unique_id=344870277 instance=ExtResource("4_dywbp")]
+[node name="Cube4" parent="Room/Objects" unique_id=344870277 instance=ExtResource("4_dywbp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -4.781513, 2.9069128, 0)
 
-[node name="Cube5" parent="Room" unique_id=704147950 instance=ExtResource("4_dywbp")]
+[node name="Cube5" parent="Room/Objects" unique_id=704147950 instance=ExtResource("4_dywbp")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.532238, -1.2613518)
 
 [node name="Player" parent="." unique_id=1076630347 instance=ExtResource("2_4tcl0")]
