@@ -10,7 +10,7 @@ var mouse_captured := false
 # For inputs in Godot's keybind mapping
 func _input(event: InputEvent) -> void:
 	movement_direction = Input.get_vector("move_left", "move_right", "move_forward", "move_backward")
-	jump_pressed = Input.is_action_just_pressed("jump")
+	jump_pressed = Input.is_action_pressed("jump")
 	run_pressed = Input.is_action_pressed("run")
 
 
