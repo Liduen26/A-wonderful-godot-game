@@ -11,7 +11,6 @@ func _ready() -> void:
 	press_component.output_active.connect(button_activated_state_change)
 
 	for subnode in get_children(true):
-		print(subnode)
 		if subnode is Light3D:
 			lights.push_front(subnode)
 			subnode.light_color = Color(Color.BLUE)

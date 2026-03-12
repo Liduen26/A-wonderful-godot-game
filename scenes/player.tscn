@@ -1,9 +1,11 @@
 [gd_scene format=3 uid="uid://0bb412wjo0ol"]
 
 [ext_resource type="Script" uid="uid://cfjl48vry7y3d" path="res://scripts/player.gd" id="1_3vyb7"]
-[ext_resource type="Script" uid="uid://c6rparwt8l28e" path="res://scripts/inputs_component.gd" id="2_g2els"]
+[ext_resource type="Script" uid="uid://c6rparwt8l28e" path="res://scripts/player_inputs_component.gd" id="2_g2els"]
 [ext_resource type="Script" uid="uid://dd78r2ncklme7" path="res://scripts/movements_component.gd" id="3_qhqgy"]
 [ext_resource type="Script" uid="uid://688eclb5lswm" path="res://scripts/look_around_component.gd" id="4_dqkch"]
+[ext_resource type="Script" uid="uid://ccdgro3m86wc7" path="res://scripts/gravity_component.gd" id="5_qlg0r"]
+[ext_resource type="Script" uid="uid://ur00ji43jqm0" path="res://scripts/jump_component.gd" id="6_tuyoq"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_u8vuu"]
 
@@ -22,15 +24,14 @@ shape = SubResource("CapsuleShape3D_u8vuu")
 [node name="Camera" type="Camera3D" parent="." unique_id=881714298]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.84703493, 0)
 
-[node name="InputsComponent" type="Node" parent="." unique_id=152564196]
+[node name="PlayerInputsComponent" type="Node" parent="." unique_id=152564196]
 unique_name_in_owner = true
 script = ExtResource("2_g2els")
 metadata/_custom_type_script = "uid://c6rparwt8l28e"
 
-[node name="MovementsComponents" type="Node" parent="." unique_id=551559497 node_paths=PackedStringArray("body", "model")]
+[node name="MovementsComponents" type="Node" parent="." unique_id=551559497 node_paths=PackedStringArray("model")]
 unique_name_in_owner = true
 script = ExtResource("3_qhqgy")
-body = NodePath("..")
 model = NodePath("../Mesh")
 metadata/_custom_type_script = "uid://dd78r2ncklme7"
 
@@ -40,3 +41,14 @@ script = ExtResource("4_dqkch")
 body = NodePath("..")
 camera = NodePath("../Camera")
 metadata/_custom_type_script = "uid://688eclb5lswm"
+
+[node name="GravityComponent" type="Node" parent="." unique_id=753271459]
+unique_name_in_owner = true
+script = ExtResource("5_qlg0r")
+gravity_multiplier = 1.7
+metadata/_custom_type_script = "uid://ccdgro3m86wc7"
+
+[node name="JumpComponent" type="Node" parent="." unique_id=691427949]
+unique_name_in_owner = true
+script = ExtResource("6_tuyoq")
+metadata/_custom_type_script = "uid://ur00ji43jqm0"

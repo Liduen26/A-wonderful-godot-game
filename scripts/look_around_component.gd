@@ -15,7 +15,7 @@ func _ready() -> void:
 	look_rotation.y = body.rotation.y
 	look_rotation.x = camera.rotation.x
 
-func tick(delta: float, look_direction: Vector2) -> void:
+func update(look_direction: Vector2) -> void:
 	# calcs
 	const SPEED_DEMULTIPLIER = 1000
 	look_rotation.y -= (look_direction.x * look_speed) / SPEED_DEMULTIPLIER 	# left/right
