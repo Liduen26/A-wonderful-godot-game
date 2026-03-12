@@ -27,10 +27,10 @@ script = ExtResource("1_vspt0")
 
 [node name="Button v1" parent="." unique_id=1275252840 instance=ExtResource("1_foth2")]
 
-[node name="ButtonBase" parent="Button v1" index="0" unique_id=345874876]
+[node name="ButtonBase" parent="Button v1" index="0" unique_id=1790706849]
 material_override = SubResource("StandardMaterial3D_5re7b")
 
-[node name="ButtonActivable" parent="Button v1" index="1" unique_id=975074481]
+[node name="ButtonActivable" parent="Button v1" index="1" unique_id=1696043287]
 material_override = SubResource("StandardMaterial3D_o4cgu")
 
 [node name="Area3D" type="Area3D" parent="Button v1/ButtonActivable" index="0" unique_id=1581967795]
@@ -59,29 +59,29 @@ area = NodePath("../Button v1/ButtonActivable/Area3D")
 stream = ExtResource("5_5re7b")
 volume_db = -25.0
 
-[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1213797992 groups=["Lights"]]
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1213797992]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7302365, 0.21291755, -0.000339067)
 light_energy = 0.2
 omni_range = 0.2
 
-[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=323688344 groups=["Lights"]]
+[node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=323688344]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.73, 0.21300001, 0)
 light_energy = 0.2
 omni_range = 0.2
 
-[node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=881255220 groups=["Lights"]]
+[node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=881255220]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21300001, 0.73)
 light_energy = 0.2
 omni_range = 0.2
 
-[node name="OmniLight3D4" type="OmniLight3D" parent="." unique_id=1431407950 groups=["Lights"]]
+[node name="OmniLight3D4" type="OmniLight3D" parent="." unique_id=1431407950]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21300001, -0.73)
 light_energy = 0.2
 omni_range = 0.2
 
-[node name="LightPoint" type="SpotLight3D" parent="." unique_id=1255319771 groups=["Lights"]]
+[node name="LightPoint" type="SpotLight3D" parent="." unique_id=1255319771]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0.19786945, 0)
-light_energy = 16.0
+light_energy = 6.0
 light_indirect_energy = 0.0
 light_volumetric_fog_energy = 0.0
 light_specular = 0.0
@@ -89,6 +89,6 @@ distance_fade_begin = 0.0
 spot_range = 1.6
 spot_attenuation = -10.0
 spot_angle = 87.0
-spot_angle_attenuation = 0.07445818
+spot_angle_attenuation = 0.12522337
 
 [editable path="Button v1"]
