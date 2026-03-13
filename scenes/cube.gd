@@ -1,5 +1,5 @@
 class_name Cube extends RigidBody3D
-@onready var interactible_component: InteractibleComponent = %InteractibleComponent
+@onready var interactible_component: InteractibleComponent = $InteractibleToggleComponent
 @onready var pickupable_component: PickupableComponent = %PickupableComponent
 
 

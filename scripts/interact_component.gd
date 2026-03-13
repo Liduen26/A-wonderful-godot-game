@@ -5,6 +5,7 @@ class_name InteractComponent extends Node
 @export var interaction_ray: RayCast3D
 
 var interacting: bool
+var interacting_object: InteractibleComponent
 
 func _ready() -> void:
 	if interaction_ray == null:
@@ -12,11 +13,21 @@ func _ready() -> void:
 		return
 
 func consume() -> void:
+	if interacting:
+		interacting = false
+		interacting_object.interact(player)
+		interacting_object = null
+		return 
+	
 	if not interaction_ray.is_colliding():
 		return
 	
 	var interactible_comp: InteractibleComponent = _find_interactible( interaction_ray.get_collider() )
 	if interactible_comp:
+		if interactible_comp is InteractibleToggleComponent:
+			interacting = true
+			interacting_object = interactible_comp
+		
 		interactible_comp.interact(player)
 
 

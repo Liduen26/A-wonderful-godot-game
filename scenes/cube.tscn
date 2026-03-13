@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://ccvravblpd7qh" path="res://scenes/cube.gd" id="1_0d7ej"]
 [ext_resource type="Texture2D" uid="uid://c12crrh0owh7l" path="res://assets/images/b39cdb0a59ee4ed1f28d92a906e19c52.jpg" id="1_7ufek"]
 [ext_resource type="Script" uid="uid://dbqf1k7dc0jyd" path="res://scripts/pickupable_component.gd" id="3_i7q2r"]
-[ext_resource type="Script" uid="uid://cdsna5lpd3pwh" path="res://scripts/interactible_component.gd" id="4_0d7ej"]
+[ext_resource type="Script" uid="uid://1xu7j0qio3lp" path="res://scripts/interactible_toggle_component.gd" id="4_0d7ej"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8viuf"]
 
@@ -30,7 +30,6 @@ unique_name_in_owner = true
 script = ExtResource("3_i7q2r")
 metadata/_custom_type_script = "uid://dbqf1k7dc0jyd"
 
-[node name="InteractibleComponent" type="Node" parent="." unique_id=690279365]
-unique_name_in_owner = true
+[node name="InteractibleToggleComponent" type="Node" parent="." unique_id=601369407]
 script = ExtResource("4_0d7ej")
-metadata/_custom_type_script = "uid://cdsna5lpd3pwh"
+metadata/_custom_type_script = "uid://1xu7j0qio3lp"
