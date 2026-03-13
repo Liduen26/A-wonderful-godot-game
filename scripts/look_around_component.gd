@@ -1,7 +1,7 @@
 class_name LookAroundComponent extends Node
 
-@export var body: CharacterBody3D
-@export var camera: Camera3D
+@onready var body: PhysicsBody3D = $".."
+@export var head: Node3D
 
 @export var look_speed = 5.0
 
@@ -13,7 +13,7 @@ func _ready() -> void:
 		return
 		
 	look_rotation.y = body.rotation.y
-	look_rotation.x = camera.rotation.x
+	look_rotation.x = head.rotation.x
 
 func update(look_direction: Vector2) -> void:
 	# calcs
@@ -24,8 +24,8 @@ func update(look_direction: Vector2) -> void:
 	
 	# Reset basis to avoid camera jitteriness
 	body.transform.basis = Basis()
-	camera.transform.basis = Basis()
+	head.transform.basis = Basis()
 	
 	# Apply rotation
 	body.rotate_y(look_rotation.y)
-	camera.rotate_x(look_rotation.x)
+	head.rotate_x(look_rotation.x)

@@ -1,7 +1,9 @@
 [gd_scene format=3 uid="uid://bbqxxn472pt2a"]
 
+[ext_resource type="Script" uid="uid://ccvravblpd7qh" path="res://scenes/cube.gd" id="1_0d7ej"]
 [ext_resource type="Texture2D" uid="uid://c12crrh0owh7l" path="res://assets/images/b39cdb0a59ee4ed1f28d92a906e19c52.jpg" id="1_7ufek"]
-[ext_resource type="Script" uid="uid://saf84aastnrc" path="res://scripts/can_be_picked_up_component.gd" id="2_8viuf"]
+[ext_resource type="Script" uid="uid://dbqf1k7dc0jyd" path="res://scripts/pickupable_component.gd" id="3_i7q2r"]
+[ext_resource type="Script" uid="uid://cdsna5lpd3pwh" path="res://scripts/interactible_component.gd" id="4_0d7ej"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_8viuf"]
 
@@ -13,6 +15,7 @@ uv1_scale = Vector3(3, 2, 1)
 
 [node name="Cube" type="RigidBody3D" unique_id=772982042]
 collision_layer = 4
+script = ExtResource("1_0d7ej")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=700660097]
 shape = SubResource("BoxShape3D_8viuf")
@@ -22,6 +25,12 @@ use_collision = true
 mesh = SubResource("BoxMesh_8viuf")
 material = SubResource("StandardMaterial3D_i7q2r")
 
-[node name="CanBePickedUpComponent" type="Node" parent="." unique_id=568528798]
-script = ExtResource("2_8viuf")
-metadata/_custom_type_script = "uid://saf84aastnrc"
+[node name="PickupableComponent" type="Node" parent="." unique_id=688624667]
+unique_name_in_owner = true
+script = ExtResource("3_i7q2r")
+metadata/_custom_type_script = "uid://dbqf1k7dc0jyd"
+
+[node name="InteractibleComponent" type="Node" parent="." unique_id=690279365]
+unique_name_in_owner = true
+script = ExtResource("4_0d7ej")
+metadata/_custom_type_script = "uid://cdsna5lpd3pwh"

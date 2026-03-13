@@ -6,7 +6,6 @@
 [ext_resource type="Script" uid="uid://688eclb5lswm" path="res://scripts/look_around_component.gd" id="4_dqkch"]
 [ext_resource type="Script" uid="uid://ccdgro3m86wc7" path="res://scripts/gravity_component.gd" id="5_qlg0r"]
 [ext_resource type="Script" uid="uid://ur00ji43jqm0" path="res://scripts/jump_component.gd" id="6_tuyoq"]
-[ext_resource type="Script" uid="uid://b82tbglugv320" path="res://scripts/interact_component.gd" id="7_fjrip"]
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_u8vuu"]
 
@@ -23,12 +22,11 @@ mesh = SubResource("CapsuleMesh_u8vuu")
 shape = SubResource("CapsuleShape3D_u8vuu")
 
 [node name="Head" type="Node3D" parent="." unique_id=68345585]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
 
 [node name="Camera" type="Camera3D" parent="Head" unique_id=881714298]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.84703493, 0)
 
 [node name="InteractionRay" type="RayCast3D" parent="Head" unique_id=983305691]
-target_position = Vector3(0, 0, -4)
 
 [node name="PlayerInputsComponent" type="Node" parent="." unique_id=152564196]
 unique_name_in_owner = true
@@ -41,10 +39,10 @@ script = ExtResource("3_qhqgy")
 model = NodePath("../Mesh")
 metadata/_custom_type_script = "uid://dd78r2ncklme7"
 
-[node name="LookAroundComponent" type="Node" parent="." unique_id=2008496771 node_paths=PackedStringArray("head")]
+[node name="LookAroundComponent" type="Node" parent="." unique_id=2008496771 node_paths=PackedStringArray("body")]
 unique_name_in_owner = true
 script = ExtResource("4_dqkch")
-head = NodePath("../Head")
+body = NodePath("..")
 metadata/_custom_type_script = "uid://688eclb5lswm"
 
 [node name="GravityComponent" type="Node" parent="." unique_id=753271459]
@@ -57,9 +55,3 @@ metadata/_custom_type_script = "uid://ccdgro3m86wc7"
 unique_name_in_owner = true
 script = ExtResource("6_tuyoq")
 metadata/_custom_type_script = "uid://ur00ji43jqm0"
-
-[node name="InteractComponent" type="Node" parent="." unique_id=311885126 node_paths=PackedStringArray("interaction_ray")]
-unique_name_in_owner = true
-script = ExtResource("7_fjrip")
-interaction_ray = NodePath("../Head/InteractionRay")
-metadata/_custom_type_script = "uid://b82tbglugv320"

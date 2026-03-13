@@ -3,7 +3,7 @@ class_name PressComponent extends Node
 @export var visual_feedback_node: Node3D
 @export var activated := false
 @export var pressed_position := Vector3(0.0, -1.0, 0.0)
-@export var movement_speed := 5.0
+@export var movement_speed := 6.0
 
 signal output_active(bool)
 

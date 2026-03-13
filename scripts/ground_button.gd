@@ -1,13 +1,13 @@
 extends Node3D
 
-@onready var be_activated_by_object_component: BeActivatedByObjectComponent = %BeActivatedByObjectComponent
+@onready var activable_by_object_component: ActivableByObjectComponent = %ActivableByObjectComponent
 @onready var press_component: PressComponent = %PressComponent
 @onready var sfx_click = $sfx_click
 
 var lights: Array[Light3D]
 
 func _ready() -> void:
-	be_activated_by_object_component.status_changed.connect(update_status)
+	activable_by_object_component.status_changed.connect(update_status)
 	press_component.output_active.connect(button_activated_state_change)
 
 	for subnode in get_children(true):
