@@ -28,6 +28,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
 [node name="Camera" type="Camera3D" parent="Head" unique_id=881714298]
 
 [node name="InteractionRay" type="RayCast3D" parent="Head" unique_id=983305691]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 1, 0, 0, 0)
 target_position = Vector3(0, 0, -4)
 
 [node name="PlayerInputsComponent" type="Node" parent="." unique_id=152564196]
