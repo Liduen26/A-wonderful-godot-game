@@ -5,7 +5,7 @@
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_sk3xf"]
 height = 1.0
 
-[node name="candle_lit" type="StaticBody3D" unique_id=1397081465]
+[node name="candle_lit" type="StaticBody3D" unique_id=2014152500]
 
 [node name="CandleLit" type="MeshInstance3D" parent="." unique_id=489824106]
 mesh = ExtResource("1_0wm84")

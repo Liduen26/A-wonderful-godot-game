@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://gfo6cy160dh4"]
+
+[ext_resource type="ArrayMesh" uid="uid://cqu74jqbe5r1b" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/candle_thin_lit.obj" id="1_1q0o3"]
+[ext_resource type="Script" uid="uid://dbqf1k7dc0jyd" path="res://scripts/pickupable_component.gd" id="2_f7i5u"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_n601j"]
+height = 1.0456543
+
+[node name="pickable_candle" type="RigidBody3D" unique_id=1085523917]
+collision_layer = 4
+
+[node name="CandleThinLit" type="MeshInstance3D" parent="." unique_id=289259444]
+mesh = ExtResource("1_1q0o3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2059323810]
+transform = Transform3D(0.2, 0, 0, 0, 1, 0, 0, 0, 0.2, 0, 0.5233154, 0)
+shape = SubResource("CylinderShape3D_n601j")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1813184547]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9987403, 0)
+light_color = Color(0.8784314, 0.6156863, 0.21568628, 1)
+omni_range = 3.0
+
+[node name="PickupableComponent" type="Node" parent="." unique_id=167487716]
+script = ExtResource("2_f7i5u")
+metadata/_custom_type_script = "uid://dbqf1k7dc0jyd"

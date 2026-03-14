@@ -9,7 +9,9 @@
 [ext_resource type="PackedScene" uid="uid://b2ndyakyrl8j3" path="res://scenes/objects/bed&things.tscn" id="6_6xh4u"]
 [ext_resource type="PackedScene" uid="uid://b1x5qtxbqckeg" path="res://scenes/objects/pillar.tscn" id="7_cyt5c"]
 [ext_resource type="PackedScene" uid="uid://dide51tnjiqoq" path="res://scenes/objects/candle_lit.tscn" id="8_7x1jh"]
+[ext_resource type="PackedScene" uid="uid://gfo6cy160dh4" path="res://scenes/objects/pickable_candle.tscn" id="8_jmx14"]
 [ext_resource type="PackedScene" uid="uid://cjxende1ugd00" path="res://scenes/objects/crates_stacked.tscn" id="9_hfwtw"]
+[ext_resource type="PackedScene" uid="uid://bbqxxn472pt2a" path="res://scenes/cube.tscn" id="12_eaa0b"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cyt5c"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -198,15 +200,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.5)
 
 [node name="Decorations" type="StaticBody3D" parent="Room" unique_id=683815640]
 
-[node name="bed&things" parent="Room/Decorations" unique_id=1951695667 instance=ExtResource("6_6xh4u")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.729162, 0, -5.291717)
-
-[node name="Pillar" parent="Room/Decorations" unique_id=1858800872 instance=ExtResource("7_cyt5c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -12.5)
-
-[node name="Pillar2" parent="Room/Decorations" unique_id=946263054 instance=ExtResource("7_cyt5c")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -12.5)
-
 [node name="candles" type="Node3D" parent="Room/Decorations" unique_id=323558811]
 
 [node name="candle_lit" parent="Room/Decorations/candles" unique_id=1397081465 instance=ExtResource("8_7x1jh")]
@@ -241,5 +234,20 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9987403, 0)
 light_color = Color(0.8784314, 0.6156863, 0.21568628, 1)
 omni_range = 3.0
 
+[node name="pickable_candle" parent="Room/Decorations/candles" unique_id=1085523917 instance=ExtResource("8_jmx14")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7474588, 1.355402, -8.059093)
+
+[node name="bed&things" parent="Room/Decorations" unique_id=1951695667 instance=ExtResource("6_6xh4u")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.729162, 0, -5.291717)
+
+[node name="Pillar" parent="Room/Decorations" unique_id=1858800872 instance=ExtResource("7_cyt5c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, -12.5)
+
+[node name="Pillar2" parent="Room/Decorations" unique_id=946263054 instance=ExtResource("7_cyt5c")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -5, 0, -12.5)
+
 [node name="CratesStacked" parent="Room/Decorations" unique_id=1413263510 instance=ExtResource("9_hfwtw")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.300055, 0, -16.915907)
+
+[node name="Cube" parent="Room/Decorations" unique_id=772982042 instance=ExtResource("12_eaa0b")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.6638336, -6.5241947)
