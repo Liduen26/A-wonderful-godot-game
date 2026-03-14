@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://c7lbdxdqb4pu5"]
+
+[ext_resource type="ArrayMesh" uid="uid://cxyv6qhxvm4ko" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_doorway.obj" id="1_qkaqe"]
+[ext_resource type="ArrayMesh" uid="uid://0fspe6o863rq" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_doorway_door.obj" id="2_6pw0c"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0dt5x"]
+size = Vector3(4.0095825, 4.021057, 1)
+
+[node name="Door&Wall" type="StaticBody3D" unique_id=1706916146]
+
+[node name="WallDoorway" type="MeshInstance3D" parent="." unique_id=1980665073]
+mesh = ExtResource("1_qkaqe")
+
+[node name="WallDoorwayDoor" type="MeshInstance3D" parent="." unique_id=1250992293]
+mesh = ExtResource("2_6pw0c")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1170926080]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.004180908, 2.0022888, 0)
+shape = SubResource("BoxShape3D_0dt5x")

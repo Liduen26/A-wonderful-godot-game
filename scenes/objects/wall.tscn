@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dpjlqayxt7csw"]
+
+[ext_resource type="ArrayMesh" uid="uid://niv6bjjppmxt" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall.obj" id="1_y1upl"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_y1upl"]
+size = Vector3(4.008362, 4.0307007, 1)
+
+[node name="wall" type="StaticBody3D" unique_id=830961182]
+
+[node name="Wall" type="MeshInstance3D" parent="." unique_id=1355457297]
+mesh = ExtResource("1_y1upl")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=820358111]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00015258789, 2.0069885, 0)
+shape = SubResource("BoxShape3D_y1upl")

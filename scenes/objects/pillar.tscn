@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b1x5qtxbqckeg"]
+
+[ext_resource type="ArrayMesh" uid="uid://cqva8paivb2ik" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/pillar.obj" id="1_sbj11"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_277nc"]
+height = 3.9675446
+
+[node name="Pillar" type="StaticBody3D" unique_id=1858800872]
+
+[node name="Pillar" type="MeshInstance3D" parent="." unique_id=1738735110]
+mesh = ExtResource("1_sbj11")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=984005953]
+transform = Transform3D(1.5, 0, 0, 0, 1, 0, 0, 0, 1.5, 0, 2.0149002, 0)
+shape = SubResource("CylinderShape3D_277nc")

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cjxende1ugd00"]
+
+[ext_resource type="ArrayMesh" uid="uid://dish1lq7f55mv" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/crates_stacked.obj" id="1_kb23v"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_hhane"]
+size = Vector3(2.1039734, 2.1530762, 2.240448)
+
+[node name="CratesStacked" type="StaticBody3D" unique_id=1413263510]
+
+[node name="CratesStacked" type="MeshInstance3D" parent="." unique_id=291852733]
+mesh = ExtResource("1_kb23v")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=352676130]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.039596558, 1.0694461, -0.039108276)
+shape = SubResource("BoxShape3D_hhane")

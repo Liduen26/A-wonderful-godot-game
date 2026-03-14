@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://b2ndyakyrl8j3"]
+
+[ext_resource type="ArrayMesh" uid="uid://c12d5f5emmrj7" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bed_decorated.obj" id="1_rjaix"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_w1psx"]
+size = Vector3(2.709961, 2.2504883, 3.0522766)
+
+[node name="bed&things" type="StaticBody3D" unique_id=1951695667]
+
+[node name="BedDecorated" type="MeshInstance3D" parent="." unique_id=523965589]
+mesh = ExtResource("1_rjaix")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1827084930]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.47021484, 0.62524414, -0.017288208)
+shape = SubResource("BoxShape3D_w1psx")

@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://c5brmul7pmlny"]
+
+[ext_resource type="ArrayMesh" uid="uid://dopcgrauw5fsg" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/chair.obj" id="1_rjlyr"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_r1c1s"]
+size = Vector3(0.76123047, 1.2501221, 0.7744751)
+
+[node name="Chair" type="StaticBody3D" unique_id=258483057]
+
+[node name="Chair" type="MeshInstance3D" parent="." unique_id=266174430]
+mesh = ExtResource("1_rjlyr")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1838619775]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.012451172, 0.62506104, 0.002532959)
+shape = SubResource("BoxShape3D_r1c1s")

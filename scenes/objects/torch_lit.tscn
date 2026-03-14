@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://dh5y4dyfj848s"]
+
+[ext_resource type="ArrayMesh" uid="uid://5nb4tk4y5k4q" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/torch_lit.obj" id="1_p0pvm"]
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_k7vxq"]
+height = 1.02771
+
+[node name="Torch_lit" type="StaticBody3D" unique_id=1739397067]
+
+[node name="TorchLit" type="MeshInstance3D" parent="." unique_id=1379483262]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, 0)
+mesh = ExtResource("1_p0pvm")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2007376163]
+transform = Transform3D(0.5, 0, 0, 0, 1, 0, 0, 0, 0.5, 0, 0.5560913, 0)
+shape = SubResource("CylinderShape3D_k7vxq")

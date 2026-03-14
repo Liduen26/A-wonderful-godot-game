@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cw45atgruwybt"]
+
+[ext_resource type="ArrayMesh" uid="uid://bwqhyxpmnpoet" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_long_tablecloth_decorated_A.obj" id="1_c67oe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_cxnel"]
+size = Vector3(2.0245361, 1.8440857, 4.0490723)
+
+[node name="TableLongclothDecorated" type="StaticBody3D" unique_id=2032317640]
+
+[node name="TableLongTableclothDecoratedA" type="MeshInstance3D" parent="." unique_id=1959906418]
+mesh = ExtResource("1_c67oe")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1442547198]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.0020141602, 0.88926697, -0.010131836)
+shape = SubResource("BoxShape3D_cxnel")
