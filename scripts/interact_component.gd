@@ -22,12 +22,12 @@ func consume() -> void:
 	if not interaction_ray.is_colliding():
 		return
 	
+	print(interaction_ray.get_collider())
 	var interactible_comp: InteractibleComponent = _find_interactible( interaction_ray.get_collider() )
 	if interactible_comp:
 		if interactible_comp is InteractibleToggleComponent:
 			interacting = true
 			interacting_object = interactible_comp
-		
 		interactible_comp.interact(player)
 
 

@@ -10,3 +10,4 @@ func update(wants_to_jump: bool) -> void:
 		body.velocity.y = vertical_velocity
 	
 	# TODO : Add cooldown back
+	# TODO : Grace time

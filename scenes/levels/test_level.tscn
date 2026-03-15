@@ -27,6 +27,7 @@ ambient_light_source = 3
 ambient_light_sky_contribution = 0.3
 tonemap_mode = 4
 tonemap_exposure = 1.35
+sdfgi_enabled = true
 glow_enabled = true
 
 [node name="test_level" type="Node3D" unique_id=1697063852]
@@ -205,34 +206,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.5)
 [node name="candle_lit" parent="Room/Decorations/candles" unique_id=1397081465 instance=ExtResource("8_7x1jh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0.056, -17.5)
 
-[node name="OmniLight3D" type="OmniLight3D" parent="Room/Decorations/candles/candle_lit" unique_id=952469148]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9987403, 0)
-light_color = Color(0.8784314, 0.6156863, 0.21568628, 1)
-omni_range = 3.0
-
 [node name="candle_lit2" parent="Room/Decorations/candles" unique_id=1875511751 instance=ExtResource("8_7x1jh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0.056, -17.5)
-
-[node name="OmniLight3D" type="OmniLight3D" parent="Room/Decorations/candles/candle_lit2" unique_id=2032379200]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9987403, 0)
-light_color = Color(0.8784314, 0.6156863, 0.21568628, 1)
-omni_range = 3.0
 
 [node name="candle_lit3" parent="Room/Decorations/candles" unique_id=1296872454 instance=ExtResource("8_7x1jh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -7.108847, 0.9983442, -6.106863)
 
-[node name="OmniLight3D" type="OmniLight3D" parent="Room/Decorations/candles/candle_lit3" unique_id=798738736]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9987403, 0)
-light_color = Color(0.8784314, 0.6156863, 0.21568628, 1)
-omni_range = 3.0
-
 [node name="candle_lit4" parent="Room/Decorations/candles" unique_id=563510539 instance=ExtResource("8_7x1jh")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.6888666, 1.0474174, -6.598898)
-
-[node name="OmniLight3D" type="OmniLight3D" parent="Room/Decorations/candles/candle_lit4" unique_id=119277557]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9987403, 0)
-light_color = Color(0.8784314, 0.6156863, 0.21568628, 1)
-omni_range = 3.0
 
 [node name="pickable_candle" parent="Room/Decorations/candles" unique_id=1085523917 instance=ExtResource("8_jmx14")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.7474588, 1.355402, -8.059093)

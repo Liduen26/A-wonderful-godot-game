@@ -1,5 +1,7 @@
 class_name PickupableComponent extends Node
 
+@export var interactible_component: InteractibleComponent
+
 @export var is_held: bool = false
 @onready var pickupable_object: RigidBody3D = $".."
 @export var hold_distance: float = 2.0
@@ -10,12 +12,20 @@ var _saved_collision_mask: int
 var _player: Player
 
 
+
 func _ready() -> void:
 	if pickupable_object == null:
 		printerr("No RigidBody3D as parent of " + str(self))
-	
+	pickupable_object.collision_layer = 3
 	_saved_collision_layer = pickupable_object.collision_layer
 	_saved_collision_mask = pickupable_object.collision_mask
+	
+	if interactible_component == null:
+		printerr("No InteractibleComponent set ! Set it in the inspector of " + str(self))
+	interactible_component.interacted.connect(_grab)
+
+func _grab(player: Player) -> void:
+	set_is_held(!is_held, player)
 
 func set_is_held(new_status: bool, player: Player) -> void:
 	is_held = new_status
