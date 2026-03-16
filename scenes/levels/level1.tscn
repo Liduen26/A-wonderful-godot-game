@@ -16,6 +16,7 @@ sky_material = SubResource("ProceduralSkyMaterial_x6ivy")
 background_mode = 2
 sky = SubResource("Sky_4tcl0")
 tonemap_mode = 2
+sdfgi_enabled = true
 glow_enabled = true
 
 [sub_resource type="BoxMesh" id="BoxMesh_83ld5"]
@@ -66,7 +67,8 @@ albedo_color = Color(0.7372549, 0.6666667, 0.6666667, 1)
 environment = SubResource("Environment_dd0lh")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=313081318]
-transform = Transform3D(-0.7369813, 0.45907474, 0.49609366, 0.54561675, 0.83727187, 0.035757624, -0.3989498, 0.29702967, -0.8675325, 0, 0, 0)
+transform = Transform3D(-0.8661755, -0.45045638, 0.2164008, -0.2121936, 0.72356683, 0.65682954, -0.45245346, 0.5230108, -0.7223197, 0, 0, 0)
+shadow_enabled = true
 
 [node name="Room" type="StaticBody3D" parent="." unique_id=145541045]
 

@@ -70,21 +70,25 @@ volume_db = -25.0
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=1213797992]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.7302365, 0.21291755, -0.000339067)
 light_energy = 0.15
+shadow_enabled = true
 omni_range = 0.2
 
 [node name="OmniLight3D2" type="OmniLight3D" parent="." unique_id=323688344]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.73, 0.21300001, 0)
 light_energy = 0.15
+shadow_enabled = true
 omni_range = 0.2
 
 [node name="OmniLight3D3" type="OmniLight3D" parent="." unique_id=881255220]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21300001, 0.73)
 light_energy = 0.15
+shadow_enabled = true
 omni_range = 0.2
 
 [node name="OmniLight3D4" type="OmniLight3D" parent="." unique_id=1431407950]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.21300001, -0.73)
 light_energy = 0.15
+shadow_enabled = true
 omni_range = 0.2
 
 [node name="LightPoint" type="SpotLight3D" parent="." unique_id=1255319771]
@@ -93,6 +97,7 @@ light_energy = 6.0
 light_indirect_energy = 0.0
 light_volumetric_fog_energy = 0.0
 light_specular = 0.0
+shadow_enabled = true
 distance_fade_begin = 0.0
 spot_range = 1.6
 spot_attenuation = -10.0
