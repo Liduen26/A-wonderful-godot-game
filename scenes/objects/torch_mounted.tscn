@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://g6n5r3ni2eg1"]
+
+[ext_resource type="ArrayMesh" uid="uid://o1isb42i47uw" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/torch_mounted.obj" id="1_5f710"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0ajtl"]
+size = Vector3(0.5638733, 1.0829468, 0.60769653)
+
+[node name="TorchMounted" type="StaticBody3D" unique_id=1455952128]
+
+[node name="TorchMounted" type="MeshInstance3D" parent="." unique_id=151214015]
+mesh = ExtResource("1_5f710")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2125987647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.008682251, 0.14883423, 0.31349182)
+shape = SubResource("BoxShape3D_0ajtl")
+
+[node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=326470326]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4647435, 0.32671905)
+light_color = Color(0.8784314, 0.6156863, 0.21568628, 1)
+light_size = 0.3
+distance_fade_enabled = true
+omni_range = 10.0

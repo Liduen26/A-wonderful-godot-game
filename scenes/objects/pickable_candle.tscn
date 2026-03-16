@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://gfo6cy160dh4"]
 
-[ext_resource type="ArrayMesh" uid="uid://cqu74jqbe5r1b" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/candle_thin_lit.obj" id="1_1q0o3"]
+[ext_resource type="ArrayMesh" uid="uid://r6isshgkngfb" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/candle_thin_lit.obj" id="1_1q0o3"]
 [ext_resource type="Script" uid="uid://dbqf1k7dc0jyd" path="res://scripts/pickupable_component.gd" id="2_f7i5u"]
 [ext_resource type="Script" uid="uid://1xu7j0qio3lp" path="res://scripts/interactible_toggle_component.gd" id="3_ubnau"]
 
@@ -23,7 +23,8 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0376444, 0)
 light_color = Color(0.8784314, 0.6156863, 0.21568628, 1)
 light_size = 0.3
 shadow_enabled = true
-omni_range = 10.0
+omni_range = 3.0
+omni_attenuation = 0.5
 
 [node name="PickupableComponent" type="Node" parent="." unique_id=167487716 node_paths=PackedStringArray("interactible_component")]
 unique_name_in_owner = true
