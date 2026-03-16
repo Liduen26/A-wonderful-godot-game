@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cxqt1uhbw65l8"]
+
+[ext_resource type="ArrayMesh" uid="uid://diy8gqbbisutx" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/chest_gold.obj" id="1_mvlsq"]
+[ext_resource type="ArrayMesh" uid="uid://bxorgv50kv8i4" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/chest_gold_lid.obj" id="2_4hyqe"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_eukgc"]
+size = Vector3(1.723999, 1.885498, 1.5986328)
+
+[node name="OpennedChestWithGold" type="StaticBody3D" unique_id=369445775]
+
+[node name="ChestGold" type="MeshInstance3D" parent="." unique_id=1851091909]
+mesh = ExtResource("1_mvlsq")
+
+[node name="ChestGoldLid" type="MeshInstance3D" parent="." unique_id=1854178076]
+transform = Transform3D(1, 0, 0, 0, 0.56958085, 0.8219355, 0, -0.8219355, 0.56958085, 0, 0.75, 0.3)
+mesh = ExtResource("2_4hyqe")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1147710581]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0018920898, 0.9210205, -0.1459961)
+shape = SubResource("BoxShape3D_eukgc")
