@@ -12,15 +12,16 @@ radius = 0.096191406
 collision_layer = 4
 
 [node name="CandleThinLit" type="MeshInstance3D" parent="." unique_id=289259444]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.47206134, 0)
 mesh = ExtResource("1_1q0o3")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2059323810]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5233154, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.051254094, 0)
 shape = SubResource("CylinderShape3D_n601j")
 
 [node name="OmniLight3D" type="OmniLight3D" parent="." unique_id=892028107]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.0376444, 0)
-light_color = Color(0.8784314, 0.6156863, 0.21568628, 1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.56558305, 0)
+light_color = Color(0.83137256, 0.72156864, 0.41568628, 1)
 light_size = 0.3
 shadow_enabled = true
 omni_range = 3.0

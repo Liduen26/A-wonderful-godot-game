@@ -1,0 +1,1079 @@
+[gd_scene format=3 uid="uid://bkap26rumdlgo"]
+
+[ext_resource type="ArrayMesh" uid="uid://qxytsl3ifyng" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_blue.obj" id="1_snipk"]
+[ext_resource type="ArrayMesh" uid="uid://6h62l3icbnw1" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_brown.obj" id="2_0etle"]
+[ext_resource type="ArrayMesh" uid="uid://cg67enrwdsx0v" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_green.obj" id="3_kfsvf"]
+[ext_resource type="ArrayMesh" uid="uid://dmqyr8oojk88o" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternA_blue.obj" id="4_najmp"]
+[ext_resource type="ArrayMesh" uid="uid://d0lnv014ij28y" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternA_brown.obj" id="5_1l2bh"]
+[ext_resource type="ArrayMesh" uid="uid://b647etry7roho" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternA_green.obj" id="6_cn7jq"]
+[ext_resource type="ArrayMesh" uid="uid://t3agcwnypx81" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternA_red.obj" id="7_2v2yj"]
+[ext_resource type="ArrayMesh" uid="uid://chilpcc3edrcx" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternA_white.obj" id="8_ws0lu"]
+[ext_resource type="ArrayMesh" uid="uid://dcy3cv7ecyoee" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternA_yellow.obj" id="9_4p81k"]
+[ext_resource type="ArrayMesh" uid="uid://bnk5evwva5omm" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternB_blue.obj" id="10_xj3lf"]
+[ext_resource type="ArrayMesh" uid="uid://c6g16l0vpkpkh" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternB_brown.obj" id="11_o53rs"]
+[ext_resource type="ArrayMesh" uid="uid://c5cfoiv86h77r" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternB_green.obj" id="12_hdhs1"]
+[ext_resource type="ArrayMesh" uid="uid://ddesamr0vbqt7" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternB_red.obj" id="13_1lqlc"]
+[ext_resource type="ArrayMesh" uid="uid://moepai727g24" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternB_white.obj" id="14_f24kp"]
+[ext_resource type="ArrayMesh" uid="uid://cf7scsvd3f2jv" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternB_yellow.obj" id="15_2faie"]
+[ext_resource type="ArrayMesh" uid="uid://bkax8r1upbiy3" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternC_blue.obj" id="16_2ncoc"]
+[ext_resource type="ArrayMesh" uid="uid://bf2imp11irvdp" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternC_brown.obj" id="17_hrvyf"]
+[ext_resource type="ArrayMesh" uid="uid://2ds08kn2jt3n" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternC_green.obj" id="18_qu3s8"]
+[ext_resource type="ArrayMesh" uid="uid://dk3xnvuh1ytmi" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternC_red.obj" id="19_d4jix"]
+[ext_resource type="ArrayMesh" uid="uid://dey0dbdmdq6p2" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternC_white.obj" id="20_bb8lr"]
+[ext_resource type="ArrayMesh" uid="uid://dywedwjf2150r" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_patternC_yellow.obj" id="21_tm38v"]
+[ext_resource type="ArrayMesh" uid="uid://mfi5r5wkg7o3" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_red.obj" id="22_re35n"]
+[ext_resource type="ArrayMesh" uid="uid://bwf3tusc0pfe0" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_shield_blue.obj" id="23_5iwfw"]
+[ext_resource type="ArrayMesh" uid="uid://dob0bewjcne5r" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_shield_brown.obj" id="24_llh0m"]
+[ext_resource type="ArrayMesh" uid="uid://bto6u081kekks" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_shield_green.obj" id="25_b8fay"]
+[ext_resource type="ArrayMesh" uid="uid://rpuu1kplcbb1" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_shield_red.obj" id="26_1gpi0"]
+[ext_resource type="ArrayMesh" uid="uid://bfricdi2rmigt" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_shield_white.obj" id="27_314j4"]
+[ext_resource type="ArrayMesh" uid="uid://cd3r65txib8as" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_shield_yellow.obj" id="28_0ae7o"]
+[ext_resource type="ArrayMesh" uid="uid://cvvhl0dlcrw11" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_thin_blue.obj" id="29_3hneb"]
+[ext_resource type="ArrayMesh" uid="uid://dywabbfakvbkj" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_thin_brown.obj" id="30_kuycq"]
+[ext_resource type="ArrayMesh" uid="uid://c7b4iimkh6pj1" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_thin_green.obj" id="31_q33kc"]
+[ext_resource type="ArrayMesh" uid="uid://c10la2xge6lu4" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_thin_red.obj" id="32_ny5r5"]
+[ext_resource type="ArrayMesh" uid="uid://uuilmr177thl" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_thin_white.obj" id="33_xuy8l"]
+[ext_resource type="ArrayMesh" uid="uid://c1x1oj0mu4iqp" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_thin_yellow.obj" id="34_4fefp"]
+[ext_resource type="ArrayMesh" uid="uid://868hrr6qfcc3" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_triple_blue.obj" id="35_al3fh"]
+[ext_resource type="ArrayMesh" uid="uid://dnqqvvnxpdsxd" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_triple_brown.obj" id="36_xye6h"]
+[ext_resource type="ArrayMesh" uid="uid://b0q2m1om1irfo" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_triple_green.obj" id="37_gtgsr"]
+[ext_resource type="ArrayMesh" uid="uid://cisn8wtblvyki" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_triple_red.obj" id="38_smmpy"]
+[ext_resource type="ArrayMesh" uid="uid://cgxj05bmqy6x8" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_triple_white.obj" id="39_wcuvs"]
+[ext_resource type="ArrayMesh" uid="uid://bmw1yuxavmos5" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_triple_yellow.obj" id="40_6veie"]
+[ext_resource type="ArrayMesh" uid="uid://bpkkgv1iwyion" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_white.obj" id="41_wxasa"]
+[ext_resource type="ArrayMesh" uid="uid://bfrathgg1waxj" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/banner_yellow.obj" id="42_i8f0n"]
+[ext_resource type="ArrayMesh" uid="uid://c33q1x7ksaicv" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/barrel_large.obj" id="43_avt5p"]
+[ext_resource type="ArrayMesh" uid="uid://cjrtaq2ydo5tp" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/barrel_large_decorated.obj" id="44_huib0"]
+[ext_resource type="ArrayMesh" uid="uid://bquovj07bqf37" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/barrel_small.obj" id="45_rvn8d"]
+[ext_resource type="ArrayMesh" uid="uid://brgwihr47xe1a" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/barrel_small_stack.obj" id="46_ap7y2"]
+[ext_resource type="ArrayMesh" uid="uid://b30msnlquo6tx" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/barrier.obj" id="47_47lix"]
+[ext_resource type="ArrayMesh" uid="uid://i3hxltx4km8b" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/barrier_column.obj" id="48_gflsu"]
+[ext_resource type="ArrayMesh" uid="uid://bwj6jyjhsm64d" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/barrier_colum_half.obj" id="49_6wuma"]
+[ext_resource type="ArrayMesh" uid="uid://kpqjupc8g2oj" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/barrier_corner.obj" id="50_p28r0"]
+[ext_resource type="ArrayMesh" uid="uid://dm5mcjmghswsx" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/barrier_half.obj" id="51_psnne"]
+[ext_resource type="ArrayMesh" uid="uid://bwhrxcof1dcpf" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bed_decorated.obj" id="52_ekvob"]
+[ext_resource type="ArrayMesh" uid="uid://dm0ahdoig2b1y" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bed_floor.obj" id="53_td2rq"]
+[ext_resource type="ArrayMesh" uid="uid://c8ky3r6ftia37" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bed_frame.obj" id="54_qsq8k"]
+[ext_resource type="ArrayMesh" uid="uid://dfv3ax7amouib" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bottle_A_brown.obj" id="55_3wbi3"]
+[ext_resource type="ArrayMesh" uid="uid://dnp2p857b5ug6" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bottle_A_green.obj" id="56_qqu12"]
+[ext_resource type="ArrayMesh" uid="uid://cipphbibk5rq5" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bottle_A_labeled_brown.obj" id="57_okexo"]
+[ext_resource type="ArrayMesh" uid="uid://0h47wt2aojt2" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bottle_A_labeled_green.obj" id="58_bmw40"]
+[ext_resource type="ArrayMesh" uid="uid://beeuhtabb7w66" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bottle_B_brown.obj" id="59_s7k6t"]
+[ext_resource type="ArrayMesh" uid="uid://csrdqlsa370ja" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bottle_B_green.obj" id="60_inpu7"]
+[ext_resource type="ArrayMesh" uid="uid://ca0xc57hsf53p" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bottle_C_brown.obj" id="61_thp4a"]
+[ext_resource type="ArrayMesh" uid="uid://bsy1v0gmd2omp" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/bottle_C_green.obj" id="62_xjx5w"]
+[ext_resource type="ArrayMesh" uid="uid://bkg44ml362eiu" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/box_large.obj" id="63_deris"]
+[ext_resource type="ArrayMesh" uid="uid://ed7jx3q62n00" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/box_small_decorated.obj" id="64_4dwpn"]
+[ext_resource type="ArrayMesh" uid="uid://c0qno65wftej7" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/box_stacked.obj" id="65_234xv"]
+[ext_resource type="ArrayMesh" uid="uid://c6bxd78yhba2y" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/candle.obj" id="66_dlooy"]
+[ext_resource type="ArrayMesh" uid="uid://dha5xic66xb77" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/candle_lit.obj" id="67_fvj2j"]
+[ext_resource type="ArrayMesh" uid="uid://dumxn75qes365" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/candle_melted.obj" id="68_ves2x"]
+[ext_resource type="ArrayMesh" uid="uid://dmflhm1gjv62o" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/candle_thin.obj" id="69_x8xbi"]
+[ext_resource type="ArrayMesh" uid="uid://r6isshgkngfb" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/candle_thin_lit.obj" id="70_hbsnp"]
+[ext_resource type="ArrayMesh" uid="uid://khownk451qgs" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/candle_triple.obj" id="71_en682"]
+[ext_resource type="ArrayMesh" uid="uid://d3fewu3yyor2x" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/ceiling_tile.obj" id="72_8yxof"]
+[ext_resource type="ArrayMesh" uid="uid://sbclnop67csq" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/chair.obj" id="73_re2yp"]
+[ext_resource type="ArrayMesh" uid="uid://cfuownmnnktv7" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/chest.obj" id="74_cb68m"]
+[ext_resource type="ArrayMesh" uid="uid://diy8gqbbisutx" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/chest_gold.obj" id="75_pc238"]
+[ext_resource type="ArrayMesh" uid="uid://bxorgv50kv8i4" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/chest_gold_lid.obj" id="76_pnt7e"]
+[ext_resource type="ArrayMesh" uid="uid://c6ux6ovt7s25c" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/chest_lid.obj" id="77_2n13q"]
+[ext_resource type="ArrayMesh" uid="uid://oj7v6553yoqb" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/coin.obj" id="78_v2mf7"]
+[ext_resource type="ArrayMesh" uid="uid://bxybpi5i1gt8p" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/coin_stack_large.obj" id="79_4bhkr"]
+[ext_resource type="ArrayMesh" uid="uid://5lvw7vtkiipg" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/coin_stack_medium.obj" id="80_yjvdb"]
+[ext_resource type="ArrayMesh" uid="uid://bua6n075df64c" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/coin_stack_small.obj" id="81_aibpi"]
+[ext_resource type="ArrayMesh" uid="uid://b3wsmt6s7km4n" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/column.obj" id="82_kqa1f"]
+[ext_resource type="ArrayMesh" uid="uid://utg8wcefv222" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/crates_stacked.obj" id="83_b8i4s"]
+[ext_resource type="ArrayMesh" uid="uid://ftl0p2qaebvn" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_dirt_large.obj" id="84_wmdn0"]
+[ext_resource type="ArrayMesh" uid="uid://c8chxsdlfyygv" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_dirt_large_rocky.obj" id="85_o2yuy"]
+[ext_resource type="ArrayMesh" uid="uid://crm0uluxm4l8l" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_dirt_small_A.obj" id="86_rjw5b"]
+[ext_resource type="ArrayMesh" uid="uid://764gubeugnso" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_dirt_small_B.obj" id="87_xl2xv"]
+[ext_resource type="ArrayMesh" uid="uid://d056nucccutut" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_dirt_small_C.obj" id="88_luml0"]
+[ext_resource type="ArrayMesh" uid="uid://hk58jc0ftseh" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_dirt_small_corner.obj" id="89_86tgu"]
+[ext_resource type="ArrayMesh" uid="uid://d3g805qehkb8k" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_dirt_small_D.obj" id="90_kmwgw"]
+[ext_resource type="ArrayMesh" uid="uid://csbhju70jw8vv" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_dirt_small_weeds.obj" id="91_o8o6i"]
+[ext_resource type="ArrayMesh" uid="uid://cssre4jp3hbyf" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_foundation_allsides.obj" id="92_i6cvc"]
+[ext_resource type="ArrayMesh" uid="uid://ck0u7kd80y1vq" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_foundation_corner.obj" id="93_4r7cr"]
+[ext_resource type="ArrayMesh" uid="uid://dkchh81mnuuea" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_foundation_diagonal_corner.obj" id="94_kfk10"]
+[ext_resource type="ArrayMesh" uid="uid://daxpe6wf42q6h" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_foundation_front.obj" id="95_j2til"]
+[ext_resource type="ArrayMesh" uid="uid://k12or12g2h8n" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_foundation_front_and_back.obj" id="96_uw56q"]
+[ext_resource type="ArrayMesh" uid="uid://qu4symucrxig" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_foundation_front_and_sides.obj" id="97_w4u2d"]
+[ext_resource type="ArrayMesh" uid="uid://c3002rox28oto" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_big_grate.obj" id="98_mk6tm"]
+[ext_resource type="ArrayMesh" uid="uid://dkwerhd3k45yq" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_big_grate_open.obj" id="99_jfe2j"]
+[ext_resource type="ArrayMesh" uid="uid://63a1h57b81nf" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_big_spikes.obj" id="100_accbl"]
+[ext_resource type="ArrayMesh" uid="uid://kqb2pnm414g4" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_big_spikes_spikes.obj" id="101_suir0"]
+[ext_resource type="ArrayMesh" uid="uid://1tvdpeo10rry" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_extralarge_grates.obj" id="102_2hp47"]
+[ext_resource type="ArrayMesh" uid="uid://pkct04eelnyg" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_extralarge_grates_open.obj" id="103_ed5oc"]
+[ext_resource type="ArrayMesh" uid="uid://61qn3jt5eevc" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_grate.obj" id="104_0x8yy"]
+[ext_resource type="ArrayMesh" uid="uid://h8oo2vbyuex3" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_grate_open.obj" id="105_4sol7"]
+[ext_resource type="ArrayMesh" uid="uid://0bxfg04h4jgq" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_large.obj" id="106_3dojq"]
+[ext_resource type="ArrayMesh" uid="uid://bcb1umufnjojf" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_large_rocks.obj" id="107_tasfq"]
+[ext_resource type="ArrayMesh" uid="uid://if7bc36wgmc1" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_small.obj" id="108_cpcvg"]
+[ext_resource type="ArrayMesh" uid="uid://oycyfusfr1s2" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_small_broken_A.obj" id="109_pqhtw"]
+[ext_resource type="ArrayMesh" uid="uid://yjlncnfv7wo" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_small_broken_B.obj" id="110_gvdkq"]
+[ext_resource type="ArrayMesh" uid="uid://c3uqelahyimke" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_small_corner.obj" id="111_3hm4k"]
+[ext_resource type="ArrayMesh" uid="uid://cn6rhrfla8nwh" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_small_decorated.obj" id="112_peudl"]
+[ext_resource type="ArrayMesh" uid="uid://qfe6voa4o4qw" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_small_weeds_A.obj" id="113_bbcqa"]
+[ext_resource type="ArrayMesh" uid="uid://b2andetf77gna" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_small_weeds_B.obj" id="114_tfjcd"]
+[ext_resource type="ArrayMesh" uid="uid://dkq28xs3ht1tl" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_wood_large.obj" id="115_yrhc2"]
+[ext_resource type="ArrayMesh" uid="uid://dd1j2s0qah417" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_wood_large_dark.obj" id="116_8p5yn"]
+[ext_resource type="ArrayMesh" uid="uid://b77aonghqv40x" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_wood_small.obj" id="117_ffq30"]
+[ext_resource type="ArrayMesh" uid="uid://bcumhxqir7p7u" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_wood_small_dark.obj" id="118_7iaqm"]
+[ext_resource type="ArrayMesh" uid="uid://dkcv0kqj8t625" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/keg_decorated.obj" id="119_qdnpt"]
+[ext_resource type="ArrayMesh" uid="uid://cb24tal08qog1" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/key.obj" id="120_tw8yd"]
+[ext_resource type="ArrayMesh" uid="uid://cueett565tmyl" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/keyring.obj" id="121_53arg"]
+[ext_resource type="ArrayMesh" uid="uid://dsyx7vf3knlqm" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/keg.obj" id="122_60c54"]
+[ext_resource type="ArrayMesh" uid="uid://csc56hui7bgyg" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/keyring_hanging.obj" id="123_ednaw"]
+[ext_resource type="ArrayMesh" uid="uid://wy6550bt76ar" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/pillar.obj" id="124_oek0a"]
+[ext_resource type="ArrayMesh" uid="uid://b3nw4odaxxxt" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/pillar_decorated.obj" id="125_7ihwo"]
+[ext_resource type="ArrayMesh" uid="uid://6ttsayf6dytq" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/plate.obj" id="126_nqvdn"]
+[ext_resource type="ArrayMesh" uid="uid://bbw66cs0ir84" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/plate_food_A.obj" id="127_lx50e"]
+[ext_resource type="ArrayMesh" uid="uid://b0f367wmoqw1n" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/plate_food_B.obj" id="128_7d30t"]
+[ext_resource type="ArrayMesh" uid="uid://bsl54wqdr2kvy" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/plate_small.obj" id="129_qbshd"]
+[ext_resource type="ArrayMesh" uid="uid://cbagobhsvb62f" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/plate_stack.obj" id="130_6g3p6"]
+[ext_resource type="ArrayMesh" uid="uid://plckv3p7nast" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/rubble_half.obj" id="131_yddr2"]
+[ext_resource type="ArrayMesh" uid="uid://bb6pkk1o8hg8r" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/rubble_large.obj" id="132_6q0gv"]
+[ext_resource type="ArrayMesh" uid="uid://dgpmifr65gf5k" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/shelf_large.obj" id="133_4ccup"]
+[ext_resource type="ArrayMesh" uid="uid://4yqneerydqvw" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/shelf_small.obj" id="134_8lsm0"]
+[ext_resource type="ArrayMesh" uid="uid://ctwwjiab5bdq2" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/shelf_small_candles.obj" id="135_5us33"]
+[ext_resource type="ArrayMesh" uid="uid://chixy5odjeymc" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/shelves.obj" id="136_n0gw1"]
+[ext_resource type="ArrayMesh" uid="uid://c64g86buhhtay" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs.obj" id="137_m48nb"]
+[ext_resource type="ArrayMesh" uid="uid://de5nr45rvlg8y" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_long.obj" id="138_lvwi0"]
+[ext_resource type="ArrayMesh" uid="uid://dsfe3u4olr554" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_long_modular_center.obj" id="139_0xwpw"]
+[ext_resource type="ArrayMesh" uid="uid://trijbojrdm1f" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_long_modular_left.obj" id="140_wd5fh"]
+[ext_resource type="ArrayMesh" uid="uid://nybhdcuwhrr6" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_long_modular_right.obj" id="141_0xahu"]
+[ext_resource type="ArrayMesh" uid="uid://dljm8s6y6ofv2" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_modular_center.obj" id="142_vukgk"]
+[ext_resource type="ArrayMesh" uid="uid://bn62h4qpqiw01" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_modular_left.obj" id="143_iiwkt"]
+[ext_resource type="ArrayMesh" uid="uid://cbmr5ha0gaqxs" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_modular_right.obj" id="144_0rrjt"]
+[ext_resource type="ArrayMesh" uid="uid://4r336nrd086x" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_narrow.obj" id="145_isqqd"]
+[ext_resource type="ArrayMesh" uid="uid://coysx7yjrrv24" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_walled.obj" id="146_qgj1t"]
+[ext_resource type="ArrayMesh" uid="uid://bmldo1qrfy2cf" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_wall_left.obj" id="147_v8tad"]
+[ext_resource type="ArrayMesh" uid="uid://0ubikuy1guo7" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_wall_right.obj" id="148_qakwh"]
+[ext_resource type="ArrayMesh" uid="uid://cylf14u2x8uum" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_wide.obj" id="149_76g5t"]
+[ext_resource type="ArrayMesh" uid="uid://c631jcsc6y4ee" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_wood.obj" id="150_lbx4u"]
+[ext_resource type="ArrayMesh" uid="uid://byjornphbr612" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_wood_decorated.obj" id="151_gig0i"]
+[ext_resource type="ArrayMesh" uid="uid://c2jd1dxn45u7x" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stool.obj" id="152_7iy2n"]
+[ext_resource type="ArrayMesh" uid="uid://8x2lwggp2mmg" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/sword_shield.obj" id="153_tlaur"]
+[ext_resource type="ArrayMesh" uid="uid://bclff7dulbcl3" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/sword_shield_broken.obj" id="154_6bimf"]
+[ext_resource type="ArrayMesh" uid="uid://b6w1hgxhcpt0c" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/sword_shield_gold.obj" id="155_gcf72"]
+[ext_resource type="ArrayMesh" uid="uid://8mgvvwp2smg5" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_long.obj" id="156_slenl"]
+[ext_resource type="ArrayMesh" uid="uid://dq3a6svhvsfeu" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_long_broken.obj" id="157_kly2s"]
+[ext_resource type="ArrayMesh" uid="uid://dutwjw5qvmwql" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_long_decorated_A.obj" id="158_x0dy6"]
+[ext_resource type="ArrayMesh" uid="uid://ci0cakcloav5o" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_long_decorated_C.obj" id="159_cdc24"]
+[ext_resource type="ArrayMesh" uid="uid://bkv2vdgbbiywy" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_long_tablecloth.obj" id="160_15icu"]
+[ext_resource type="ArrayMesh" uid="uid://dbn6p7f16v7f" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_long_tablecloth_decorated_A.obj" id="161_f1m8t"]
+[ext_resource type="ArrayMesh" uid="uid://fm6a6hp2pvgj" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_medium.obj" id="162_crbrk"]
+[ext_resource type="ArrayMesh" uid="uid://c33ewr4l54dc4" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_medium_broken.obj" id="163_a4xcm"]
+[ext_resource type="ArrayMesh" uid="uid://de40o7kv65uwm" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_medium_decorated_A.obj" id="164_eaweq"]
+[ext_resource type="ArrayMesh" uid="uid://bqi28qr2haoiy" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_medium_tablecloth.obj" id="165_k5eau"]
+[ext_resource type="ArrayMesh" uid="uid://bm4vkpc7xj32o" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_medium_tablecloth_decorated_B.obj" id="166_335nb"]
+[ext_resource type="ArrayMesh" uid="uid://cmi18dsvx3qwk" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_small.obj" id="167_60h5c"]
+[ext_resource type="ArrayMesh" uid="uid://cpradpm316fyf" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_small_decorated_A.obj" id="168_xdl43"]
+[ext_resource type="ArrayMesh" uid="uid://chs13yjsmm363" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/table_small_decorated_B.obj" id="169_4lwoe"]
+[ext_resource type="ArrayMesh" uid="uid://b3eaa42sfxl8p" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/torch.obj" id="170_86tgu"]
+[ext_resource type="ArrayMesh" uid="uid://da66snwp3qjhv" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/torch_lit.obj" id="171_kmwgw"]
+[ext_resource type="ArrayMesh" uid="uid://o1isb42i47uw" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/torch_mounted.obj" id="172_o8o6i"]
+[ext_resource type="ArrayMesh" uid="uid://b1aafylmibxot" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/trunk_large_A.obj" id="173_i6cvc"]
+[ext_resource type="ArrayMesh" uid="uid://vs7xp3d4p5q4" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/trunk_large_B.obj" id="174_4r7cr"]
+[ext_resource type="ArrayMesh" uid="uid://beqpl4k6k2tjc" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/trunk_large_C.obj" id="175_kfk10"]
+[ext_resource type="ArrayMesh" uid="uid://d3vkb4adkqv48" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/trunk_medium_A.obj" id="176_j2til"]
+[ext_resource type="ArrayMesh" uid="uid://c1p1d65ibmjoh" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/trunk_medium_B.obj" id="177_uw56q"]
+[ext_resource type="ArrayMesh" uid="uid://b86xjptio4lro" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/trunk_medium_C.obj" id="178_w4u2d"]
+[ext_resource type="ArrayMesh" uid="uid://cn5sop7kffe81" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/trunk_small_A.obj" id="179_mk6tm"]
+[ext_resource type="ArrayMesh" uid="uid://cc3wy3jgy8hb5" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/trunk_small_B.obj" id="180_jfe2j"]
+[ext_resource type="ArrayMesh" uid="uid://x42g5axkr6g8" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/trunk_small_C.obj" id="181_accbl"]
+[ext_resource type="ArrayMesh" uid="uid://dcpgiq641hgip" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall.obj" id="182_suir0"]
+[ext_resource type="ArrayMesh" uid="uid://h7nrtiy2o5y5" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_arched.obj" id="183_2hp47"]
+[ext_resource type="ArrayMesh" uid="uid://c1xvkumdt7bmq" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_archedwindow_gated.obj" id="184_ed5oc"]
+[ext_resource type="ArrayMesh" uid="uid://dkhtpaxo7g1vx" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_archedwindow_gated_scaffold.obj" id="185_0x8yy"]
+[ext_resource type="ArrayMesh" uid="uid://nvbqifu2ja81" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_archedwindow_open.obj" id="186_4sol7"]
+[ext_resource type="ArrayMesh" uid="uid://rrjy88tnvhmh" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_broken.obj" id="187_3dojq"]
+[ext_resource type="ArrayMesh" uid="uid://otsnlj3860lv" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_corner.obj" id="188_tasfq"]
+[ext_resource type="ArrayMesh" uid="uid://bmc5km4ncw6a0" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_corner_gated.obj" id="189_cpcvg"]
+[ext_resource type="ArrayMesh" uid="uid://rcffl38nkgj3" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_corner_scaffold.obj" id="190_pqhtw"]
+[ext_resource type="ArrayMesh" uid="uid://dp7xgson6qqbd" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_corner_small.obj" id="191_gvdkq"]
+[ext_resource type="ArrayMesh" uid="uid://bfhyuj1v2ccwv" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_cracked.obj" id="192_3hm4k"]
+[ext_resource type="ArrayMesh" uid="uid://c0kxy36utpu4r" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_crossing.obj" id="193_peudl"]
+[ext_resource type="ArrayMesh" uid="uid://bnt3ktyj8wclm" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_doorway.obj" id="194_bbcqa"]
+[ext_resource type="ArrayMesh" uid="uid://b1rxx3rr2g7tw" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_doorway_door.obj" id="195_tfjcd"]
+[ext_resource type="ArrayMesh" uid="uid://dufocem5e22l7" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_doorway_scaffold.obj" id="196_yrhc2"]
+[ext_resource type="ArrayMesh" uid="uid://dtyg17ngvtct3" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_doorway_scaffold_door.obj" id="197_8p5yn"]
+[ext_resource type="ArrayMesh" uid="uid://c8mu113ucoksc" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_doorway_sides.obj" id="198_ffq30"]
+[ext_resource type="ArrayMesh" uid="uid://druw05vo2l8fd" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_doorway_Tsplit.obj" id="199_7iaqm"]
+[ext_resource type="ArrayMesh" uid="uid://dd21nrie5tm2j" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_endcap.obj" id="200_qdnpt"]
+[ext_resource type="ArrayMesh" uid="uid://dvc1nsvw6xfwo" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_gated.obj" id="201_tw8yd"]
+[ext_resource type="ArrayMesh" uid="uid://blc1f2h4fg5s5" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_half.obj" id="202_53arg"]
+[ext_resource type="ArrayMesh" uid="uid://8cqfs3tq1mdn" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_half_endcap.obj" id="203_60c54"]
+[ext_resource type="ArrayMesh" uid="uid://c0k3fsdv4lcl6" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_half_endcap_sloped.obj" id="204_ednaw"]
+[ext_resource type="ArrayMesh" uid="uid://ca658x2836qdd" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_open_scaffold.obj" id="205_oek0a"]
+[ext_resource type="ArrayMesh" uid="uid://1s5nt857e84m" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_pillar.obj" id="206_7ihwo"]
+[ext_resource type="ArrayMesh" uid="uid://bo0sjswn3vaob" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_scaffold.obj" id="207_nqvdn"]
+[ext_resource type="ArrayMesh" uid="uid://cffxk312ilctt" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_shelves.obj" id="208_lx50e"]
+[ext_resource type="ArrayMesh" uid="uid://dnp0ax2xxj2qb" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_sloped.obj" id="209_7d30t"]
+[ext_resource type="ArrayMesh" uid="uid://c5f3a5iad6q4f" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_Tsplit.obj" id="210_qbshd"]
+[ext_resource type="ArrayMesh" uid="uid://dlkdc6f165xuk" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_Tsplit_sloped.obj" id="211_6g3p6"]
+[ext_resource type="ArrayMesh" uid="uid://dtsiitjp1ci3k" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_window_closed.obj" id="212_yddr2"]
+[ext_resource type="ArrayMesh" uid="uid://canbdtgax0cxf" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_window_closed_scaffold.obj" id="213_6q0gv"]
+[ext_resource type="ArrayMesh" uid="uid://dqp00jq1e155w" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_window_open.obj" id="214_4ccup"]
+[ext_resource type="ArrayMesh" uid="uid://l876gxwuht7o" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_window_open_scaffold.obj" id="215_8lsm0"]
+
+[node name="Asset Scene" type="Node3D" unique_id=1083619446]
+
+[node name="BannerBlue" type="MeshInstance3D" parent="." unique_id=990160607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.2462199, 0, -1.2122302)
+mesh = ExtResource("1_snipk")
+
+[node name="BannerBrown" type="MeshInstance3D" parent="." unique_id=453063465]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.20934668, 0, -0.87756014)
+mesh = ExtResource("2_0etle")
+
+[node name="BannerGreen" type="MeshInstance3D" parent="." unique_id=1242418972]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.8930182, 0, -0.9292145)
+mesh = ExtResource("3_kfsvf")
+
+[node name="BannerPatternABlue" type="MeshInstance3D" parent="." unique_id=593552049]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.9698765, 4.7683716e-07, -0.75186396)
+mesh = ExtResource("4_najmp")
+
+[node name="BannerPatternABrown" type="MeshInstance3D" parent="." unique_id=1142293329]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.3238087, 0, -0.9240298)
+mesh = ExtResource("5_1l2bh")
+
+[node name="BannerPatternAGreen" type="MeshInstance3D" parent="." unique_id=1105726457]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.89275, 0, -0.65970707)
+mesh = ExtResource("6_cn7jq")
+
+[node name="BannerPatternARed" type="MeshInstance3D" parent="." unique_id=394090577]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.625799, -4.7683716e-07, -0.72457314)
+mesh = ExtResource("7_2v2yj")
+
+[node name="BannerPatternAWhite" type="MeshInstance3D" parent="." unique_id=1912182099]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 14.008192, 0, -0.9281807)
+mesh = ExtResource("8_ws0lu")
+
+[node name="BannerPatternAYellow" type="MeshInstance3D" parent="." unique_id=453710001]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 16.937113, 0, -1.2127619)
+mesh = ExtResource("9_4p81k")
+
+[node name="BannerPatternBBlue" type="MeshInstance3D" parent="." unique_id=2134937235]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.9236236, 0, 3.7262802)
+mesh = ExtResource("10_xj3lf")
+
+[node name="BannerPatternBBrown" type="MeshInstance3D" parent="." unique_id=825183467]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14002228, 0, 3.8671331)
+mesh = ExtResource("11_o53rs")
+
+[node name="BannerPatternBGreen" type="MeshInstance3D" parent="." unique_id=1359048172]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.0305738, 0, 3.8117924)
+mesh = ExtResource("12_hdhs1")
+
+[node name="BannerPatternBRed" type="MeshInstance3D" parent="." unique_id=1275567216]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.2042975, 0, 3.934352)
+mesh = ExtResource("13_1lqlc")
+
+[node name="BannerPatternBWhite" type="MeshInstance3D" parent="." unique_id=1490806585]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.4022756, -4.7683716e-07, 4.0180564)
+mesh = ExtResource("14_f24kp")
+
+[node name="BannerPatternBYellow" type="MeshInstance3D" parent="." unique_id=2052763115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.4077635, 0, 4.253964)
+mesh = ExtResource("15_2faie")
+
+[node name="BannerPatternCBlue" type="MeshInstance3D" parent="." unique_id=1372367288]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.542011, -4.7683716e-07, 4.215003)
+mesh = ExtResource("16_2ncoc")
+
+[node name="BannerPatternCBrown" type="MeshInstance3D" parent="." unique_id=127169757]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 12.682736, 4.7683716e-07, 4.505548)
+mesh = ExtResource("17_hrvyf")
+
+[node name="BannerPatternCGreen" type="MeshInstance3D" parent="." unique_id=215839941]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 15.378296, 4.7683716e-07, 4.324647)
+mesh = ExtResource("18_qu3s8")
+
+[node name="BannerPatternCRed" type="MeshInstance3D" parent="." unique_id=1145093814]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8156586, 0, 7.2839437)
+mesh = ExtResource("19_d4jix")
+
+[node name="BannerPatternCWhite" type="MeshInstance3D" parent="." unique_id=449091368]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.17601848, 0, 7.3135724)
+mesh = ExtResource("20_bb8lr")
+
+[node name="BannerPatternCYellow" type="MeshInstance3D" parent="." unique_id=979263203]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.2599027, 0, 7.441273)
+mesh = ExtResource("21_tm38v")
+
+[node name="BannerRed" type="MeshInstance3D" parent="." unique_id=2057020580]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.536438, 0, 7.5071344)
+mesh = ExtResource("22_re35n")
+
+[node name="BannerShieldBlue" type="MeshInstance3D" parent="." unique_id=1958513111]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.514828, 0, 7.478655)
+mesh = ExtResource("23_5iwfw")
+
+[node name="BannerShieldBrown" type="MeshInstance3D" parent="." unique_id=1009191852]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.91772, 0, 7.446158)
+mesh = ExtResource("24_llh0m")
+
+[node name="BannerShieldGreen" type="MeshInstance3D" parent="." unique_id=1623236256]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 11.268772, 0, 7.619447)
+mesh = ExtResource("25_b8fay")
+
+[node name="BannerShieldRed" type="MeshInstance3D" parent="." unique_id=870410642]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.785157, 0, 7.6857085)
+mesh = ExtResource("26_1gpi0")
+
+[node name="BannerShieldWhite" type="MeshInstance3D" parent="." unique_id=392829701]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.6511505, 0, 10.98826)
+mesh = ExtResource("27_314j4")
+
+[node name="BannerShieldYellow" type="MeshInstance3D" parent="." unique_id=410950621]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.65601987, 0, 11.031188)
+mesh = ExtResource("28_0ae7o")
+
+[node name="BannerThinBlue" type="MeshInstance3D" parent="." unique_id=1473240124]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.887212, 0, 11.121215)
+mesh = ExtResource("29_3hneb")
+
+[node name="BannerThinBrown" type="MeshInstance3D" parent="." unique_id=278171249]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.5260897, 0, 11.338698)
+mesh = ExtResource("30_kuycq")
+
+[node name="BannerThinGreen" type="MeshInstance3D" parent="." unique_id=1063823430]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.164775, 0, 11.302702)
+mesh = ExtResource("31_q33kc")
+
+[node name="BannerThinRed" type="MeshInstance3D" parent="." unique_id=1770920263]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 7.731085, 0, 11.361976)
+mesh = ExtResource("32_ny5r5")
+
+[node name="BannerThinWhite" type="MeshInstance3D" parent="." unique_id=63043651]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.37548, 0, 11.326195)
+mesh = ExtResource("33_xuy8l")
+
+[node name="BannerThinYellow" type="MeshInstance3D" parent="." unique_id=1523342605]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.987251, 0, 11.44684)
+mesh = ExtResource("34_4fefp")
+
+[node name="BannerTripleBlue" type="MeshInstance3D" parent="." unique_id=1884582533]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.759057, 0, 11.391529)
+mesh = ExtResource("35_al3fh")
+
+[node name="BannerTripleBrown" type="MeshInstance3D" parent="." unique_id=479895949]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.27198648, 0, 14.89114)
+mesh = ExtResource("36_xye6h")
+
+[node name="BannerTripleGreen" type="MeshInstance3D" parent="." unique_id=1543383232]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.7838125, 0, 14.952351)
+mesh = ExtResource("37_gtgsr")
+
+[node name="BannerTripleRed" type="MeshInstance3D" parent="." unique_id=664002444]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 9.159206, 0, 15.45664)
+mesh = ExtResource("38_smmpy")
+
+[node name="BannerTripleWhite" type="MeshInstance3D" parent="." unique_id=603427960]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.115865, 4.7683716e-07, 15.677111)
+mesh = ExtResource("39_wcuvs")
+
+[node name="BannerTripleYellow" type="MeshInstance3D" parent="." unique_id=1427698304]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.67710376, 0, 17.931536)
+mesh = ExtResource("40_6veie")
+
+[node name="BannerWhite" type="MeshInstance3D" parent="." unique_id=1677835509]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3.770772, 0, 18.179655)
+mesh = ExtResource("41_wxasa")
+
+[node name="BannerYellow" type="MeshInstance3D" parent="." unique_id=1287107208]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.070545, 4.7683716e-07, 18.243986)
+mesh = ExtResource("42_i8f0n")
+
+[node name="BarrelLarge" type="MeshInstance3D" parent="." unique_id=2074064953]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.766277, 0, -1.3101034)
+mesh = ExtResource("43_avt5p")
+
+[node name="BarrelLargeDecorated" type="MeshInstance3D" parent="." unique_id=1937872616]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.357464, 0, -1.5310621)
+mesh = ExtResource("44_huib0")
+
+[node name="BarrelSmall" type="MeshInstance3D" parent="." unique_id=1612601284]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.815832, 0, -1.2226009)
+mesh = ExtResource("45_rvn8d")
+
+[node name="BarrelSmallStack" type="MeshInstance3D" parent="." unique_id=2090274276]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.345049, 0, -1.0190034)
+mesh = ExtResource("46_ap7y2")
+
+[node name="Barrier" type="MeshInstance3D" parent="." unique_id=1009351910]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.89913, 0, 1.8863158)
+mesh = ExtResource("47_47lix")
+
+[node name="BarrierColumn" type="MeshInstance3D" parent="." unique_id=159626755]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.709177, 0, 1.8068352)
+mesh = ExtResource("48_gflsu")
+
+[node name="BarrierColumHalf" type="MeshInstance3D" parent="." unique_id=1707721707]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.944118, 0, 1.8771462)
+mesh = ExtResource("49_6wuma")
+
+[node name="BarrierCorner" type="MeshInstance3D" parent="." unique_id=635313413]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.200354, 0, 4.2248983)
+mesh = ExtResource("50_p28r0")
+
+[node name="BarrierHalf" type="MeshInstance3D" parent="." unique_id=612701321]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.10126, 0, 4.568836)
+mesh = ExtResource("51_psnne")
+
+[node name="BedDecorated" type="MeshInstance3D" parent="." unique_id=670270165]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.16775, -4.7683716e-07, 4.961283)
+mesh = ExtResource("52_ekvob")
+
+[node name="BedFloor" type="MeshInstance3D" parent="." unique_id=44990182]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.132286, 0, 4.828967)
+mesh = ExtResource("53_td2rq")
+
+[node name="BedFrame" type="MeshInstance3D" parent="." unique_id=996918848]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.715769, 0, 8.555795)
+mesh = ExtResource("54_qsq8k")
+
+[node name="BottleABrown" type="MeshInstance3D" parent="." unique_id=274484829]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.578217, 0, 7.722131)
+mesh = ExtResource("55_3wbi3")
+
+[node name="BottleAGreen" type="MeshInstance3D" parent="." unique_id=1401875286]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.91953, 0, 7.997957)
+mesh = ExtResource("56_qqu12")
+
+[node name="BottleALabeledBrown" type="MeshInstance3D" parent="." unique_id=2125592877]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.421354, 0, 7.6972895)
+mesh = ExtResource("57_okexo")
+
+[node name="BottleALabeledGreen" type="MeshInstance3D" parent="." unique_id=1123333124]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.352991, 0, 7.6612573)
+mesh = ExtResource("58_bmw40")
+
+[node name="BottleBBrown" type="MeshInstance3D" parent="." unique_id=1165472019]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 30.475128, 0, 7.836444)
+mesh = ExtResource("59_s7k6t")
+
+[node name="BottleBGreen" type="MeshInstance3D" parent="." unique_id=1886558038]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.57489, 0, 7.7912107)
+mesh = ExtResource("60_inpu7")
+
+[node name="BottleCBrown" type="MeshInstance3D" parent="." unique_id=2032577224]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.615746, 0, 7.844038)
+mesh = ExtResource("61_thp4a")
+
+[node name="BottleCGreen" type="MeshInstance3D" parent="." unique_id=1214500197]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.907593, -2.3841858e-07, 7.6726294)
+mesh = ExtResource("62_xjx5w")
+
+[node name="BoxLarge" type="MeshInstance3D" parent="." unique_id=1981608704]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.874245, 0, -0.26940584)
+mesh = ExtResource("63_deris")
+
+[node name="BoxSmallDecorated" type="MeshInstance3D" parent="." unique_id=1065379066]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.663906, 0, -0.32709503)
+mesh = ExtResource("64_4dwpn")
+
+[node name="BoxStacked" type="MeshInstance3D" parent="." unique_id=41746164]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.864162, 0, -0.08773184)
+mesh = ExtResource("65_234xv")
+
+[node name="Candle" type="MeshInstance3D" parent="." unique_id=182471905]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.042908, 0, 3.2497349)
+mesh = ExtResource("66_dlooy")
+
+[node name="CandleLit" type="MeshInstance3D" parent="." unique_id=1475209533]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.983086, 0, 3.08889)
+mesh = ExtResource("67_fvj2j")
+
+[node name="CandleMelted" type="MeshInstance3D" parent="." unique_id=1615803832]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.96983, 0, 3.0156436)
+mesh = ExtResource("68_ves2x")
+
+[node name="CandleThin" type="MeshInstance3D" parent="." unique_id=1716746453]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.0163, 0, 2.9425406)
+mesh = ExtResource("69_x8xbi")
+
+[node name="CandleThinLit" type="MeshInstance3D" parent="." unique_id=2019606774]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.857315, 0, 2.8317122)
+mesh = ExtResource("70_hbsnp")
+
+[node name="CandleTriple" type="MeshInstance3D" parent="." unique_id=704254753]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.80125, 0, 2.7641144)
+mesh = ExtResource("71_en682")
+
+[node name="CeilingTile" type="MeshInstance3D" parent="." unique_id=797238778]
+transform = Transform3D(1, 0, 0, 0, -1, -8.742278e-08, 0, 8.742278e-08, -1, 37.76811, 0, 6.2432876)
+mesh = ExtResource("72_8yxof")
+
+[node name="Chair" type="MeshInstance3D" parent="." unique_id=247455844]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.02838, 0, 4.845922)
+mesh = ExtResource("73_re2yp")
+
+[node name="Chest" type="MeshInstance3D" parent="." unique_id=2022695027]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.935944, 0, 4.80677)
+mesh = ExtResource("74_cb68m")
+
+[node name="ChestGold" type="MeshInstance3D" parent="." unique_id=1006287031]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.234104, 0, 6.6279473)
+mesh = ExtResource("75_pc238")
+
+[node name="ChestGoldLid" type="MeshInstance3D" parent="." unique_id=492014692]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.453102, 0, 6.9002705)
+mesh = ExtResource("76_pnt7e")
+
+[node name="ChestLid" type="MeshInstance3D" parent="." unique_id=270968006]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.211796, 0, 9.199939)
+mesh = ExtResource("77_2n13q")
+
+[node name="Coin" type="MeshInstance3D" parent="." unique_id=1581163592]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 38.973217, 0, 9.259428)
+mesh = ExtResource("78_v2mf7")
+
+[node name="CoinStackLarge" type="MeshInstance3D" parent="." unique_id=1355978577]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.56237, 0, 9.34444)
+mesh = ExtResource("79_4bhkr")
+
+[node name="CoinStackMedium" type="MeshInstance3D" parent="." unique_id=18216588]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 42.489407, 0, 8.135026)
+mesh = ExtResource("80_yjvdb")
+
+[node name="CoinStackSmall" type="MeshInstance3D" parent="." unique_id=616345570]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 44.65284, 0, 8.166366)
+mesh = ExtResource("81_aibpi")
+
+[node name="Column" type="MeshInstance3D" parent="." unique_id=297503542]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.628765, 0, 10.975559)
+mesh = ExtResource("82_kqa1f")
+
+[node name="CratesStacked" type="MeshInstance3D" parent="." unique_id=1100240260]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.694866, 0, 11.912266)
+mesh = ExtResource("83_b8i4s")
+
+[node name="FloorDirtLarge" type="MeshInstance3D" parent="." unique_id=563867441]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.129566, 0, 0.10034847)
+mesh = ExtResource("84_wmdn0")
+
+[node name="FloorDirtLargeRocky" type="MeshInstance3D" parent="." unique_id=888158218]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 56.337025, 0, 0.21622276)
+mesh = ExtResource("85_o2yuy")
+
+[node name="FloorDirtSmallA" type="MeshInstance3D" parent="." unique_id=214077936]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.53254, 0, -0.06282711)
+mesh = ExtResource("86_rjw5b")
+
+[node name="FloorDirtSmallB" type="MeshInstance3D" parent="." unique_id=1176417301]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.97943, 0, -0.19158363)
+mesh = ExtResource("87_xl2xv")
+
+[node name="FloorDirtSmallC" type="MeshInstance3D" parent="." unique_id=1552401426]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.30759, 0, -0.35317898)
+mesh = ExtResource("88_luml0")
+
+[node name="FloorDirtSmallCorner" type="MeshInstance3D" parent="." unique_id=693211134]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.22033, 0, 4.3998957)
+mesh = ExtResource("89_86tgu")
+
+[node name="FloorDirtSmallD" type="MeshInstance3D" parent="." unique_id=1544708793]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.882877, 0, 4.439636)
+mesh = ExtResource("90_kmwgw")
+
+[node name="FloorDirtSmallWeeds" type="MeshInstance3D" parent="." unique_id=1298244820]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.46612, 0, 3.9339428)
+mesh = ExtResource("91_o8o6i")
+
+[node name="FloorFoundationAllsides" type="MeshInstance3D" parent="." unique_id=1081851194]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 65.00407, 0, 4.0212603)
+mesh = ExtResource("92_i6cvc")
+
+[node name="FloorFoundationCorner" type="MeshInstance3D" parent="." unique_id=1498085859]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 69.175026, 0, 4.1618423)
+mesh = ExtResource("93_4r7cr")
+
+[node name="FloorFoundationDiagonalCorner" type="MeshInstance3D" parent="." unique_id=1820764710]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.27192, 0, 8.317596)
+mesh = ExtResource("94_kfk10")
+
+[node name="FloorFoundationFront" type="MeshInstance3D" parent="." unique_id=1647773594]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.45192, 0, 7.8893185)
+mesh = ExtResource("95_j2til")
+
+[node name="FloorFoundationFrontAndBack" type="MeshInstance3D" parent="." unique_id=963578914]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.251217, 0, 7.8873024)
+mesh = ExtResource("96_uw56q")
+
+[node name="FloorFoundationFrontAndSides" type="MeshInstance3D" parent="." unique_id=1138389128]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 63.817333, 0, 8.283648)
+mesh = ExtResource("97_w4u2d")
+
+[node name="FloorTileBigGrate" type="MeshInstance3D" parent="." unique_id=1316288810]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 69.435074, 0, 7.9213676)
+mesh = ExtResource("98_mk6tm")
+
+[node name="FloorTileBigGrateOpen" type="MeshInstance3D" parent="." unique_id=1735430816]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.472527, 0, 12.310023)
+mesh = ExtResource("99_jfe2j")
+
+[node name="FloorTileBigSpikes" type="MeshInstance3D" parent="." unique_id=1774739364]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.180958, 0, 13.255135)
+mesh = ExtResource("100_accbl")
+
+[node name="FloorTileBigSpikesSpikes" type="MeshInstance3D" parent="." unique_id=1150702214]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.898037, 0.016006231, 13.191145)
+mesh = ExtResource("101_suir0")
+
+[node name="FloorTileExtralargeGrates" type="MeshInstance3D" parent="." unique_id=1476547651]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 67.906624, 2.3841858e-07, 15.352381)
+mesh = ExtResource("102_2hp47")
+
+[node name="FloorTileExtralargeGratesOpen" type="MeshInstance3D" parent="." unique_id=1673556313]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 52.48594, 0, 20.28651)
+mesh = ExtResource("103_ed5oc")
+
+[node name="FloorTileGrate" type="MeshInstance3D" parent="." unique_id=1158842757]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.47265, 0, 18.931238)
+mesh = ExtResource("104_0x8yy")
+
+[node name="FloorTileGrateOpen" type="MeshInstance3D" parent="." unique_id=1565506684]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 68.85697, 0, 21.589127)
+mesh = ExtResource("105_4sol7")
+
+[node name="FloorTileLarge" type="MeshInstance3D" parent="." unique_id=702671000]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.72013, 0, 22.53051)
+mesh = ExtResource("106_3dojq")
+
+[node name="FloorTileLargeRocks" type="MeshInstance3D" parent="." unique_id=1799878369]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64.54256, 0, 22.452248)
+mesh = ExtResource("107_tasfq")
+
+[node name="FloorTileSmall" type="MeshInstance3D" parent="." unique_id=1239402342]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 73.8879, 0, 0.1665268)
+mesh = ExtResource("108_cpcvg")
+
+[node name="FloorTileSmallBrokenA" type="MeshInstance3D" parent="." unique_id=652245761]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 77.15793, 0, 0.11175156)
+mesh = ExtResource("109_pqhtw")
+
+[node name="FloorTileSmallBrokenB" type="MeshInstance3D" parent="." unique_id=210043626]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80.116516, 0, 0.29801083)
+mesh = ExtResource("110_gvdkq")
+
+[node name="FloorTileSmallCorner" type="MeshInstance3D" parent="." unique_id=206168175]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 82.8115, 0, 0.14825726)
+mesh = ExtResource("111_3hm4k")
+
+[node name="FloorTileSmallDecorated" type="MeshInstance3D" parent="." unique_id=1349670485]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 85.94823, 0, 0.018817902)
+mesh = ExtResource("112_peudl")
+
+[node name="FloorTileSmallWeedsA" type="MeshInstance3D" parent="." unique_id=1436789401]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 74.165886, -9.536743e-07, 3.1725492)
+mesh = ExtResource("113_bbcqa")
+
+[node name="FloorTileSmallWeedsB" type="MeshInstance3D" parent="." unique_id=1192405506]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 77.25061, 0, 3.5294104)
+mesh = ExtResource("114_tfjcd")
+
+[node name="FloorWoodLarge" type="MeshInstance3D" parent="." unique_id=102248530]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 81.01594, 0, 4.357519)
+mesh = ExtResource("115_yrhc2")
+
+[node name="FloorWoodLargeDark" type="MeshInstance3D" parent="." unique_id=1871945115]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 86.54912, 0, 4.235371)
+mesh = ExtResource("116_8p5yn")
+
+[node name="FloorWoodSmall" type="MeshInstance3D" parent="." unique_id=314588672]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 74.28916, 0, 6.1928024)
+mesh = ExtResource("117_ffq30")
+
+[node name="FloorWoodSmallDark" type="MeshInstance3D" parent="." unique_id=172117100]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 77.08078, 0, 6.305531)
+mesh = ExtResource("118_7iaqm")
+
+[node name="KegDecorated" type="MeshInstance3D" parent="." unique_id=43938374]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.830675, 0, 12.923418)
+mesh = ExtResource("119_qdnpt")
+
+[node name="Key" type="MeshInstance3D" parent="." unique_id=1683927975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.40138, 0, 11.910718)
+mesh = ExtResource("120_tw8yd")
+
+[node name="Keyring" type="MeshInstance3D" parent="." unique_id=1554268793]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.84827, 0, 12.398839)
+mesh = ExtResource("121_53arg")
+
+[node name="Keg" type="MeshInstance3D" parent="." unique_id=416921324]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.193764, 0, 12.93021)
+mesh = ExtResource("122_60c54")
+
+[node name="KeyringHanging" type="MeshInstance3D" parent="." unique_id=998673129]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.711428, 1.1698637, 11.856586)
+mesh = ExtResource("123_ednaw")
+
+[node name="Pillar" type="MeshInstance3D" parent="." unique_id=1949868813]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 91.0726, 0, 1.1045895)
+mesh = ExtResource("124_oek0a")
+
+[node name="PillarDecorated" type="MeshInstance3D" parent="." unique_id=269718647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 94.434105, 4.7683716e-07, 0.995698)
+mesh = ExtResource("125_7ihwo")
+
+[node name="Plate" type="MeshInstance3D" parent="." unique_id=1861153250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 22.052341, 0, 22.119999)
+mesh = ExtResource("126_nqvdn")
+
+[node name="PlateFoodA" type="MeshInstance3D" parent="." unique_id=1071900973]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.02293, 0, 22.309917)
+mesh = ExtResource("127_lx50e")
+
+[node name="PlateFoodB" type="MeshInstance3D" parent="." unique_id=516095985]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.429806, 0, 22.12159)
+mesh = ExtResource("128_7d30t")
+
+[node name="PlateSmall" type="MeshInstance3D" parent="." unique_id=1159626925]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.720943, 0, 22.22235)
+mesh = ExtResource("129_qbshd")
+
+[node name="PlateStack" type="MeshInstance3D" parent="." unique_id=619861370]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 28.08762, 0, 22.238297)
+mesh = ExtResource("130_6g3p6")
+
+[node name="RubbleHalf" type="MeshInstance3D" parent="." unique_id=1571772706]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 106.05309, -4.7683716e-07, 1.1034584)
+mesh = ExtResource("131_yddr2")
+
+[node name="RubbleLarge" type="MeshInstance3D" parent="." unique_id=1626845203]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 114.36186, -4.7683716e-07, 1.4516759)
+mesh = ExtResource("132_6q0gv")
+
+[node name="ShelfLarge" type="MeshInstance3D" parent="." unique_id=2095709574]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 106.95046, 0, 3.4419188)
+mesh = ExtResource("133_4ccup")
+
+[node name="ShelfSmall" type="MeshInstance3D" parent="." unique_id=345857570]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 109.61922, 0, 3.66253)
+mesh = ExtResource("134_8lsm0")
+
+[node name="ShelfSmallCandles" type="MeshInstance3D" parent="." unique_id=673144522]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 111.49581, 0, 3.5871925)
+mesh = ExtResource("135_5us33")
+
+[node name="Shelves" type="MeshInstance3D" parent="." unique_id=1247665410]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 114.28732, -4.7683716e-07, 3.591578)
+mesh = ExtResource("136_n0gw1")
+
+[node name="Stairs" type="MeshInstance3D" parent="." unique_id=859237161]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 121.86162, 0, -0.43639565)
+mesh = ExtResource("137_m48nb")
+
+[node name="StairsLong" type="MeshInstance3D" parent="." unique_id=2062935935]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 128.74419, 0, -4.0066223)
+mesh = ExtResource("138_lvwi0")
+
+[node name="StairsLongModularCenter" type="MeshInstance3D" parent="." unique_id=313603315]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 129.81285, 0, 5.2321997)
+mesh = ExtResource("139_0xwpw")
+
+[node name="StairsLongModularLeft" type="MeshInstance3D" parent="." unique_id=975333463]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 122.05499, 9.536743e-07, 4.677869)
+mesh = ExtResource("140_wd5fh")
+
+[node name="StairsLongModularRight" type="MeshInstance3D" parent="." unique_id=1194771946]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 123.06991, 0, 4.8439655)
+mesh = ExtResource("141_0xahu")
+
+[node name="StairsModularCenter" type="MeshInstance3D" parent="." unique_id=917615316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 133.70212, 0, -1.1224556)
+mesh = ExtResource("142_vukgk")
+
+[node name="StairsModularLeft" type="MeshInstance3D" parent="." unique_id=65715423]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 138.89856, 0, -1.2357254)
+mesh = ExtResource("143_iiwkt")
+
+[node name="StairsModularRight" type="MeshInstance3D" parent="." unique_id=1144165416]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 138.94864, 0, -1.8244762)
+mesh = ExtResource("144_0rrjt")
+
+[node name="StairsNarrow" type="MeshInstance3D" parent="." unique_id=1514505141]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 134.55707, -4.7683716e-07, 4.3071756)
+mesh = ExtResource("145_isqqd")
+
+[node name="StairsWalled" type="MeshInstance3D" parent="." unique_id=1622670880]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 139.80179, 0, 3.496472)
+mesh = ExtResource("146_qgj1t")
+
+[node name="StairsWallLeft" type="MeshInstance3D" parent="." unique_id=869894973]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 121.18992, 0, 14.93124)
+mesh = ExtResource("147_v8tad")
+
+[node name="StairsWallRight" type="MeshInstance3D" parent="." unique_id=1321251667]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 126.94075, 0, 14.816047)
+mesh = ExtResource("148_qakwh")
+
+[node name="StairsWide" type="MeshInstance3D" parent="." unique_id=200740840]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 137.69661, 0, 10.201906)
+mesh = ExtResource("149_76g5t")
+
+[node name="StairsWood" type="MeshInstance3D" parent="." unique_id=901803022]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 131.8016, 0, 14.081844)
+mesh = ExtResource("150_lbx4u")
+
+[node name="StairsWoodDecorated" type="MeshInstance3D" parent="." unique_id=832266070]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 138.19489, 0, 14.571274)
+mesh = ExtResource("151_gig0i")
+
+[node name="Stool" type="MeshInstance3D" parent="." unique_id=537849023]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.174263, 0, 9.808654)
+mesh = ExtResource("152_7iy2n")
+
+[node name="SwordShield" type="MeshInstance3D" parent="." unique_id=1833438892]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.74733, 1.2375453, 12.691345)
+mesh = ExtResource("153_tlaur")
+
+[node name="SwordShieldBroken" type="MeshInstance3D" parent="." unique_id=1083414484]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 35.359184, 0, 11.364328)
+mesh = ExtResource("154_6bimf")
+
+[node name="SwordShieldGold" type="MeshInstance3D" parent="." unique_id=278608418]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.82963, 0, 10.681631)
+mesh = ExtResource("155_gcf72")
+
+[node name="TableLong" type="MeshInstance3D" parent="." unique_id=552292400]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 43.504658, 0, 15.598737)
+mesh = ExtResource("156_slenl")
+
+[node name="TableLongBroken" type="MeshInstance3D" parent="." unique_id=1781115026]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.84377, 0, 15.566157)
+mesh = ExtResource("157_kly2s")
+
+[node name="TableLongDecoratedA" type="MeshInstance3D" parent="." unique_id=196543802]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.80618, -4.7683716e-07, 16.089756)
+mesh = ExtResource("158_x0dy6")
+
+[node name="TableLongDecoratedC" type="MeshInstance3D" parent="." unique_id=265409216]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.904716, 4.7683716e-07, 16.290596)
+mesh = ExtResource("159_cdc24")
+
+[node name="TableLongTablecloth" type="MeshInstance3D" parent="." unique_id=670598119]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 32.219894, 4.7683716e-07, 16.265137)
+mesh = ExtResource("160_15icu")
+
+[node name="TableLongTableclothDecoratedA" type="MeshInstance3D" parent="." unique_id=181972814]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.560286, 0, 16.319664)
+mesh = ExtResource("161_f1m8t")
+
+[node name="TableMedium" type="MeshInstance3D" parent="." unique_id=584067332]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.945969, -4.7683716e-07, 15.328748)
+mesh = ExtResource("162_crbrk")
+
+[node name="TableMediumBroken" type="MeshInstance3D" parent="." unique_id=1652610321]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.650436, 0, 15.205346)
+mesh = ExtResource("163_a4xcm")
+
+[node name="TableMediumDecoratedA" type="MeshInstance3D" parent="." unique_id=1715086323]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.597582, 4.7683716e-07, 15.877516)
+mesh = ExtResource("164_eaweq")
+
+[node name="TableMediumTablecloth" type="MeshInstance3D" parent="." unique_id=1843303716]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.352991, 0, 17.959206)
+mesh = ExtResource("165_k5eau")
+
+[node name="TableMediumTableclothDecoratedB" type="MeshInstance3D" parent="." unique_id=1801597660]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.921436, 4.7683716e-07, 18.115868)
+mesh = ExtResource("166_335nb")
+
+[node name="TableSmall" type="MeshInstance3D" parent="." unique_id=1705987947]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.661835, 4.7683716e-07, 18.217924)
+mesh = ExtResource("167_60h5c")
+
+[node name="TableSmallDecoratedA" type="MeshInstance3D" parent="." unique_id=1179413620]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 21.737494, 0, 20.058674)
+mesh = ExtResource("168_xdl43")
+
+[node name="TableSmallDecoratedB" type="MeshInstance3D" parent="." unique_id=835430816]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 23.491755, 0, 20.429691)
+mesh = ExtResource("169_4lwoe")
+
+[node name="Torch" type="MeshInstance3D" parent="." unique_id=1151712743]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.41761, 0, 20.11202)
+mesh = ExtResource("170_86tgu")
+
+[node name="TorchLit" type="MeshInstance3D" parent="." unique_id=1099667368]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 26.242157, 0, 20.043062)
+mesh = ExtResource("171_kmwgw")
+
+[node name="TorchMounted" type="MeshInstance3D" parent="." unique_id=343318903]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.379107, 0, 19.89146)
+mesh = ExtResource("172_o8o6i")
+
+[node name="TrunkLargeA" type="MeshInstance3D" parent="." unique_id=367310596]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 29.015303, 0, 20.17993)
+mesh = ExtResource("173_i6cvc")
+
+[node name="TrunkLargeB" type="MeshInstance3D" parent="." unique_id=198063159]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 31.265335, 0, 20.183086)
+mesh = ExtResource("174_4r7cr")
+
+[node name="TrunkLargeC" type="MeshInstance3D" parent="." unique_id=1658312608]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 33.009087, 0, 20.178944)
+mesh = ExtResource("175_kfk10")
+
+[node name="TrunkMediumA" type="MeshInstance3D" parent="." unique_id=1033609455]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 34.702747, 0, 20.069242)
+mesh = ExtResource("176_j2til")
+
+[node name="TrunkMediumB" type="MeshInstance3D" parent="." unique_id=2012720658]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 36.055264, 0, 20.023485)
+mesh = ExtResource("177_uw56q")
+
+[node name="TrunkMediumC" type="MeshInstance3D" parent="." unique_id=1483490595]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 37.664684, 0, 20.049133)
+mesh = ExtResource("178_w4u2d")
+
+[node name="TrunkSmallA" type="MeshInstance3D" parent="." unique_id=680820250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 39.457855, 0, 19.806372)
+mesh = ExtResource("179_mk6tm")
+
+[node name="TrunkSmallB" type="MeshInstance3D" parent="." unique_id=229989969]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 40.266632, 0, 19.814714)
+mesh = ExtResource("180_jfe2j")
+
+[node name="TrunkSmallC" type="MeshInstance3D" parent="." unique_id=221344139]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 41.114292, 0, 19.834728)
+mesh = ExtResource("181_accbl")
+
+[node name="Wall" type="MeshInstance3D" parent="." unique_id=1800968353]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 147.63535, 0, -0.5005884)
+mesh = ExtResource("182_suir0")
+
+[node name="WallArched" type="MeshInstance3D" parent="." unique_id=23366431]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 152.27545, 0, -0.39742184)
+mesh = ExtResource("183_2hp47")
+
+[node name="WallArchedwindowGated" type="MeshInstance3D" parent="." unique_id=1552623124]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 156.81348, 0, -0.5086541)
+mesh = ExtResource("184_ed5oc")
+
+[node name="WallArchedwindowGatedScaffold" type="MeshInstance3D" parent="." unique_id=801779421]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 161.68236, 0, -0.34832382)
+mesh = ExtResource("185_0x8yy")
+
+[node name="WallArchedwindowOpen" type="MeshInstance3D" parent="." unique_id=1590425315]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 147.96625, 0, 4.2360783)
+mesh = ExtResource("186_4sol7")
+
+[node name="WallBroken" type="MeshInstance3D" parent="." unique_id=1271387395]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 153.23502, 0, 4.222695)
+mesh = ExtResource("187_3dojq")
+
+[node name="WallCorner" type="MeshInstance3D" parent="." unique_id=1025053301]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 157.71263, -4.7683716e-07, 4.3472958)
+mesh = ExtResource("188_tasfq")
+
+[node name="WallCornerGated" type="MeshInstance3D" parent="." unique_id=600716055]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 162.27594, 0, 4.3528867)
+mesh = ExtResource("189_cpcvg")
+
+[node name="WallCornerScaffold" type="MeshInstance3D" parent="." unique_id=260898669]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 148.46895, 0, 7.833312)
+mesh = ExtResource("190_pqhtw")
+
+[node name="WallCornerSmall" type="MeshInstance3D" parent="." unique_id=1405725165]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 151.64543, 0, 8.72002)
+mesh = ExtResource("191_gvdkq")
+
+[node name="WallCracked" type="MeshInstance3D" parent="." unique_id=1816120594]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 155.76434, 0, 9.399441)
+mesh = ExtResource("192_3hm4k")
+
+[node name="WallCrossing" type="MeshInstance3D" parent="." unique_id=1525599554]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 161.02975, 0, 10.015964)
+mesh = ExtResource("193_peudl")
+
+[node name="WallDoorway" type="MeshInstance3D" parent="." unique_id=1183792041]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 147.85214, 0, 13.1753645)
+mesh = ExtResource("194_bbcqa")
+
+[node name="WallDoorwayDoor" type="MeshInstance3D" parent="." unique_id=2063810940]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 151.86356, 0, 13.443998)
+mesh = ExtResource("195_tfjcd")
+
+[node name="WallDoorwayScaffold" type="MeshInstance3D" parent="." unique_id=2063073316]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 156.77765, 0, 14.203396)
+mesh = ExtResource("196_yrhc2")
+
+[node name="WallDoorwayScaffoldDoor" type="MeshInstance3D" parent="." unique_id=81561317]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 161.17546, 0, 14.025573)
+mesh = ExtResource("197_8p5yn")
+
+[node name="WallDoorwaySides" type="MeshInstance3D" parent="." unique_id=800920515]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 147.97452, 4.7683716e-07, 18.814814)
+mesh = ExtResource("198_ffq30")
+
+[node name="WallDoorwayTsplit" type="MeshInstance3D" parent="." unique_id=2142131030]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 154.9723, 4.7683716e-07, 18.280315)
+mesh = ExtResource("199_7iaqm")
+
+[node name="WallEndcap" type="MeshInstance3D" parent="." unique_id=2085043990]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 160.48058, 4.7683716e-07, 18.884716)
+mesh = ExtResource("200_qdnpt")
+
+[node name="WallGated" type="MeshInstance3D" parent="." unique_id=1398319187]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 167.40854, 0, 0.024321556)
+mesh = ExtResource("201_tw8yd")
+
+[node name="WallHalf" type="MeshInstance3D" parent="." unique_id=1604107788]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 170.46043, 0, 0.10106087)
+mesh = ExtResource("202_53arg")
+
+[node name="WallHalfEndcap" type="MeshInstance3D" parent="." unique_id=598459672]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 175.95563, 0, -0.12369251)
+mesh = ExtResource("203_60c54")
+
+[node name="WallHalfEndcapSloped" type="MeshInstance3D" parent="." unique_id=1843604327]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 179.51068, 0, 0.124503136)
+mesh = ExtResource("204_ednaw")
+
+[node name="WallOpenScaffold" type="MeshInstance3D" parent="." unique_id=1302379346]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 167.26434, 0, 4.7558784)
+mesh = ExtResource("205_oek0a")
+
+[node name="WallPillar" type="MeshInstance3D" parent="." unique_id=1926069480]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 171.94395, 0, 4.973469)
+mesh = ExtResource("206_7ihwo")
+
+[node name="WallScaffold" type="MeshInstance3D" parent="." unique_id=1189553730]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 176.93352, 0, 5.1276736)
+mesh = ExtResource("207_nqvdn")
+
+[node name="WallShelves" type="MeshInstance3D" parent="." unique_id=2108997979]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 167.3124, 0, 9.25999)
+mesh = ExtResource("208_lx50e")
+
+[node name="WallSloped" type="MeshInstance3D" parent="." unique_id=497315081]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 172.32101, 4.7683716e-07, 9.300797)
+mesh = ExtResource("209_7d30t")
+
+[node name="WallTsplit" type="MeshInstance3D" parent="." unique_id=1486774408]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 177.57155, 0, 9.412655)
+mesh = ExtResource("210_qbshd")
+
+[node name="WallTsplitSloped" type="MeshInstance3D" parent="." unique_id=219420250]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 167.21648, 0, 13.740006)
+mesh = ExtResource("211_6g3p6")
+
+[node name="WallWindowClosed" type="MeshInstance3D" parent="." unique_id=748038662]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 172.26895, 0, 14.1118965)
+mesh = ExtResource("212_yddr2")
+
+[node name="WallWindowClosedScaffold" type="MeshInstance3D" parent="." unique_id=960490485]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 178.19542, 0, 14.474821)
+mesh = ExtResource("213_6q0gv")
+
+[node name="WallWindowOpen" type="MeshInstance3D" parent="." unique_id=1812766975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 167.1635, 0, 19.866535)
+mesh = ExtResource("214_4ccup")
+
+[node name="WallWindowOpenScaffold" type="MeshInstance3D" parent="." unique_id=731146785]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 173.15114, 0, 19.86608)
+mesh = ExtResource("215_8lsm0")

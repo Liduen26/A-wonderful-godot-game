@@ -1,13 +1,14 @@
 [gd_scene format=3 uid="uid://ct7fv3p51rld3"]
 
 [ext_resource type="PackedScene" uid="uid://0bb412wjo0ol" path="res://scenes/player.tscn" id="1_yautc"]
-[ext_resource type="PackedScene" uid="uid://h58o401liifb" path="res://scenes/objects/floor_1.tscn" id="2_fr1um"]
+[ext_resource type="PackedScene" uid="uid://h58o401liifb" path="res://scenes/objects/Floors/floor_1.tscn" id="2_fr1um"]
 [ext_resource type="PackedScene" uid="uid://cw45atgruwybt" path="res://scenes/objects/table_longcloth_decorated.tscn" id="3_2mu0v"]
-[ext_resource type="PackedScene" uid="uid://dpjlqayxt7csw" path="res://scenes/objects/wall.tscn" id="3_fr1um"]
-[ext_resource type="PackedScene" uid="uid://du78gfwb2vi5x" path="res://scenes/objects/wall_corner.tscn" id="4_v45ci"]
-[ext_resource type="PackedScene" uid="uid://c7lbdxdqb4pu5" path="res://scenes/objects/door&wall.tscn" id="5_48ne7"]
+[ext_resource type="PackedScene" uid="uid://dpjlqayxt7csw" path="res://scenes/objects/Walls/wall.tscn" id="3_fr1um"]
+[ext_resource type="PackedScene" uid="uid://du78gfwb2vi5x" path="res://scenes/objects/Walls/wall_corner.tscn" id="4_v45ci"]
+[ext_resource type="PackedScene" uid="uid://c7lbdxdqb4pu5" path="res://scenes/objects/Walls/door&wall.tscn" id="5_48ne7"]
 [ext_resource type="PackedScene" uid="uid://b2ndyakyrl8j3" path="res://scenes/objects/bed&things.tscn" id="6_6xh4u"]
-[ext_resource type="PackedScene" uid="uid://b1x5qtxbqckeg" path="res://scenes/objects/pillar.tscn" id="7_cyt5c"]
+[ext_resource type="PackedScene" uid="uid://msb0rln2ng6v" path="res://scenes/objects/Walls/wall_shelves.tscn" id="6_fqldq"]
+[ext_resource type="PackedScene" uid="uid://b1x5qtxbqckeg" path="res://scenes/objects/Walls/pillar.tscn" id="7_cyt5c"]
 [ext_resource type="PackedScene" uid="uid://dide51tnjiqoq" path="res://scenes/objects/candle_lit.tscn" id="8_7x1jh"]
 [ext_resource type="PackedScene" uid="uid://gfo6cy160dh4" path="res://scenes/objects/pickable_candle.tscn" id="8_jmx14"]
 [ext_resource type="PackedScene" uid="uid://g6n5r3ni2eg1" path="res://scenes/objects/torch_mounted.tscn" id="9_eaa0b"]
@@ -32,6 +33,10 @@ sdfgi_enabled = true
 glow_enabled = true
 
 [node name="test_level" type="Node3D" unique_id=1697063852]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=457019458]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+light_color = Color(0.18431373, 0.18431373, 0.18431373, 1)
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1060001179]
 environment = SubResource("Environment_hfwtw")
@@ -185,9 +190,6 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -10,
 [node name="wall19" parent="Room/Walls" unique_id=1785819268 instance=ExtResource("3_fr1um")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 10, 0, -9)
 
-[node name="wall20" parent="Room/Walls" unique_id=523804786 instance=ExtResource("3_fr1um")]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 10, 0, -5)
-
 [node name="wall21" parent="Room/Walls" unique_id=1308141748 instance=ExtResource("3_fr1um")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 10, 0, -1.8418381)
 
@@ -196,6 +198,12 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 10, 
 
 [node name="wall23" parent="Room/Walls" unique_id=725746647 instance=ExtResource("3_fr1um")]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 10, 0, -15.836613)
+
+[node name="WallShelves" parent="Room/Walls" unique_id=1051332770 instance=ExtResource("6_fqldq")]
+transform = Transform3D(-4.371139e-08, 0, -1, 0, 1, 0, 1, 0, -4.371139e-08, 10, 0, -5)
+
+[node name="wall20" parent="Room/Walls" unique_id=2133781379 instance=ExtResource("3_fr1um")]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 10, 4, -9)
 
 [node name="Door&Wall" parent="Room" unique_id=1706916146 instance=ExtResource("5_48ne7")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -18.5)
