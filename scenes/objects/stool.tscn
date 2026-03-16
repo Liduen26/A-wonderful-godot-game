@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://tuov1cwif65p"]
+
+[ext_resource type="ArrayMesh" uid="uid://c2jd1dxn45u7x" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stool.obj" id="1_ah1ls"]
+[ext_resource type="Script" uid="uid://dbqf1k7dc0jyd" path="res://scripts/pickupable_component.gd" id="2_2cdtx"]
+[ext_resource type="Script" uid="uid://1xu7j0qio3lp" path="res://scripts/interactible_toggle_component.gd" id="3_biixq"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_2cdtx"]
+size = Vector3(0.77368164, 0.5184326, 0.76171875)
+
+[node name="Stool" type="RigidBody3D" unique_id=629931666]
+
+[node name="Stool" type="MeshInstance3D" parent="." unique_id=2091154361]
+mesh = ExtResource("1_ah1ls")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=791422628]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00061035156, 0.24749756, -0.0029296875)
+shape = SubResource("BoxShape3D_2cdtx")
+
+[node name="PickupableComponent" type="Node" parent="." unique_id=1430953429 node_paths=PackedStringArray("interactible_component")]
+script = ExtResource("2_2cdtx")
+interactible_component = NodePath("../InteractibleToggleComponent")
+metadata/_custom_type_script = "uid://dbqf1k7dc0jyd"
+
+[node name="InteractibleToggleComponent" type="Node" parent="." unique_id=393445900]
+script = ExtResource("3_biixq")
+metadata/_custom_type_script = "uid://1xu7j0qio3lp"

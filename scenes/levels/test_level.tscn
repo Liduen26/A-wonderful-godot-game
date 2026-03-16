@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" uid="uid://gfo6cy160dh4" path="res://scenes/objects/pickable_candle.tscn" id="8_jmx14"]
 [ext_resource type="PackedScene" uid="uid://g6n5r3ni2eg1" path="res://scenes/objects/torch_mounted.tscn" id="9_eaa0b"]
 [ext_resource type="PackedScene" uid="uid://cjxende1ugd00" path="res://scenes/objects/crates_stacked.tscn" id="9_hfwtw"]
+[ext_resource type="PackedScene" uid="uid://tuov1cwif65p" path="res://scenes/objects/stool.tscn" id="10_a5rnb"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_cyt5c"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -219,6 +220,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5, 1.854, -18.25)
 
 [node name="TorchMounted2" parent="Room/Decorations/Torches" unique_id=384577781 instance=ExtResource("9_eaa0b")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5, 1.854, -18.25)
+
+[node name="Stool" parent="Room/Decorations/Torches" unique_id=629931666 instance=ExtResource("10_a5rnb")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0454278, 0.056152344, -8.988907)
 
 [node name="bed&things" parent="Room/Decorations" unique_id=1951695667 instance=ExtResource("6_6xh4u")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -8.729162, 0, -5.291717)
