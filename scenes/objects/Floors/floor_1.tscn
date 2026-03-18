@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://h58o401liifb"]
 
-[ext_resource type="ArrayMesh" uid="uid://b4aarh3g3i80m" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_large.obj" id="1_m017w"]
+[ext_resource type="ArrayMesh" uid="uid://0bxfg04h4jgq" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_large.obj" id="1_m017w"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_0ra10"]
 size = Vector3(4.0028076, 0.1628418, 3.9971924)
@@ -8,9 +8,7 @@ size = Vector3(4.0028076, 0.1628418, 3.9971924)
 [node name="floor1" type="StaticBody3D" unique_id=1404923472]
 
 [node name="FloorTileLarge" type="MeshInstance3D" parent="." unique_id=949534953]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.025053144, 0, -0.5351858)
 mesh = ExtResource("1_m017w")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1449735631]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.022399902, -0.025268555, -0.5385132)
 shape = SubResource("BoxShape3D_0ra10")

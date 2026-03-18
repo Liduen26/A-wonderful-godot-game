@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bnxgsgl8lu4a5"]
+
+[ext_resource type="ArrayMesh" uid="uid://dkwerhd3k45yq" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/floor_tile_big_grate_open.obj" id="1_ryh37"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_jlixq"]
+size = Vector3(4, 1, 4)
+
+[node name="FloorOpen" type="StaticBody3D" unique_id=1878409309]
+
+[node name="FloorTileBigGrateOpen" type="MeshInstance3D" parent="." unique_id=141205095]
+mesh = ExtResource("1_ryh37")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=561031066]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.42773396, 0)
+shape = SubResource("BoxShape3D_jlixq")

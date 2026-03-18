@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://d0jf5leurqt04"]
+
+[ext_resource type="ArrayMesh" uid="uid://ca658x2836qdd" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_open_scaffold.obj" id="1_kv3yv"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_csaj4"]
+size = Vector3(1.2199707, 4.011444, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_tiqwd"]
+size = Vector3(3.7163086, 0.822937, 1)
+
+[node name="WallOpenScaffold" type="StaticBody3D" unique_id=1543324356]
+
+[node name="WallOpenScaffold" type="MeshInstance3D" parent="." unique_id=458307180]
+mesh = ExtResource("1_kv3yv")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=759923704]
+transform = Transform3D(0.25, 0, 0, 0, 1, 0, 0, 0, 1, -1.8754468, 2.0103302, 0)
+shape = SubResource("BoxShape3D_csaj4")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=1628991808]
+transform = Transform3D(0.25, 0, 0, 0, 1, 0, 0, 0, 1, 1.8568678, 2.0103302, 0)
+shape = SubResource("BoxShape3D_csaj4")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." unique_id=1545374515]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.052978516, 3.5991626, 0)
+shape = SubResource("BoxShape3D_tiqwd")

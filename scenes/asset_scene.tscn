@@ -611,7 +611,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 69.435074, 0, 7.9213676)
 mesh = ExtResource("98_mk6tm")
 
 [node name="FloorTileBigGrateOpen" type="MeshInstance3D" parent="." unique_id=1735430816]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.472527, 0, 12.310023)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.472527, 0, 12.46104)
 mesh = ExtResource("99_jfe2j")
 
 [node name="FloorTileBigSpikes" type="MeshInstance3D" parent="." unique_id=1774739364]
@@ -619,7 +619,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 57.180958, 0, 13.255135)
 mesh = ExtResource("100_accbl")
 
 [node name="FloorTileBigSpikesSpikes" type="MeshInstance3D" parent="." unique_id=1150702214]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 60.898037, 0.016006231, 13.191145)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.871326, -0.22807074, 13.279742)
 mesh = ExtResource("101_suir0")
 
 [node name="FloorTileExtralargeGrates" type="MeshInstance3D" parent="." unique_id=1476547651]
@@ -1077,3 +1077,7 @@ mesh = ExtResource("214_4ccup")
 [node name="WallWindowOpenScaffold" type="MeshInstance3D" parent="." unique_id=731146785]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 173.15114, 0, 19.86608)
 mesh = ExtResource("215_8lsm0")
+
+[node name="FloorTileLarge2" type="MeshInstance3D" parent="." unique_id=1245021084]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 47.06707, 0, 12.461)
+mesh = ExtResource("106_3dojq")
