@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://ctj04hh2s6uue"]
+
+[ext_resource type="ArrayMesh" uid="uid://d3fewu3yyor2x" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/ceiling_tile.obj" id="1_x22o4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f8qqi"]
+size = Vector3(4.0117188, 0.37261963, 4.020996)
+
+[node name="CeilingTile" type="StaticBody3D" unique_id=378139742]
+
+[node name="CeilingTile" type="MeshInstance3D" parent="." unique_id=996265645]
+mesh = ExtResource("1_x22o4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1262410761]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.001953125, -0.076812744, 0.007080078)
+shape = SubResource("BoxShape3D_f8qqi")

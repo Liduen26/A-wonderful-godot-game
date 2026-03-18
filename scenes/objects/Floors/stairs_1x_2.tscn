@@ -1,0 +1,71 @@
+[gd_scene format=3 uid="uid://baxwshhn1m1mg"]
+
+[ext_resource type="ArrayMesh" uid="uid://bn62h4qpqiw01" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_modular_left.obj" id="1_ui0ek"]
+[ext_resource type="ArrayMesh" uid="uid://dljm8s6y6ofv2" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_modular_center.obj" id="2_5r7ge"]
+[ext_resource type="ArrayMesh" uid="uid://cbmr5ha0gaqxs" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/stairs_modular_right.obj" id="2_h0jpj"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_3yqvi"]
+size = Vector3(9.014465, 0.53222656, 0.5024414)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_spfkq"]
+size = Vector3(1, 2.4831848, 2.4001465)
+
+[node name="Stairs1x2" type="StaticBody3D" unique_id=1056611561]
+
+[node name="StairsModularLeft" type="MeshInstance3D" parent="." unique_id=1064233950]
+mesh = ExtResource("1_ui0ek")
+
+[node name="StairsModularCenter" type="MeshInstance3D" parent="." unique_id=1046660902]
+mesh = ExtResource("2_5r7ge")
+
+[node name="StairsModularCenter2" type="MeshInstance3D" parent="." unique_id=1171137526]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 0, 0)
+mesh = ExtResource("2_5r7ge")
+
+[node name="StairsModularCenter3" type="MeshInstance3D" parent="." unique_id=92872877]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+mesh = ExtResource("2_5r7ge")
+
+[node name="StairsModularRight" type="MeshInstance3D" parent="." unique_id=1252967291]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 0, 0)
+mesh = ExtResource("2_h0jpj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=448194767]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9979553, 0.23388672, 3.7502432)
+shape = SubResource("BoxShape3D_3yqvi")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=888781215]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9979553, 0.7380351, 3.251987)
+shape = SubResource("BoxShape3D_3yqvi")
+
+[node name="CollisionShape3D3" type="CollisionShape3D" parent="." unique_id=1323136363]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9979553, 1.2437872, 2.752471)
+shape = SubResource("BoxShape3D_3yqvi")
+
+[node name="CollisionShape3D4" type="CollisionShape3D" parent="." unique_id=1430903099]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9979553, 1.7491747, 2.254798)
+shape = SubResource("BoxShape3D_3yqvi")
+
+[node name="CollisionShape3D5" type="CollisionShape3D" parent="." unique_id=1871399109]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9979553, 2.2485504, 1.7522564)
+shape = SubResource("BoxShape3D_3yqvi")
+
+[node name="CollisionShape3D6" type="CollisionShape3D" parent="." unique_id=756881100]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9979553, 2.7611055, 1.2512603)
+shape = SubResource("BoxShape3D_3yqvi")
+
+[node name="CollisionShape3D7" type="CollisionShape3D" parent="." unique_id=340645995]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9979553, 3.2369509, 0.7510567)
+shape = SubResource("BoxShape3D_3yqvi")
+
+[node name="CollisionShape3D8" type="CollisionShape3D" parent="." unique_id=481019647]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.9979553, 3.760714, 0.25122172)
+shape = SubResource("BoxShape3D_3yqvi")
+
+[node name="CollisionShape3D9" type="CollisionShape3D" parent="." unique_id=1923862174]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 6.009734, 1.2470245, 1.1916656)
+shape = SubResource("BoxShape3D_spfkq")
+
+[node name="CollisionShape3D10" type="CollisionShape3D" parent="." unique_id=439966786]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.0083764, 1.360199, 1.1916656)
+shape = SubResource("BoxShape3D_spfkq")

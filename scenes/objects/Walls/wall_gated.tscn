@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://cwp2qca26qsyp"]
+
+[ext_resource type="ArrayMesh" uid="uid://dvc1nsvw6xfwo" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_gated.obj" id="1_qsxcd"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_k75aj"]
+size = Vector3(4.008362, 4.0307007, 1)
+
+[node name="WallGated" type="StaticBody3D" unique_id=1775054363]
+
+[node name="WallGated" type="MeshInstance3D" parent="." unique_id=427107710]
+mesh = ExtResource("1_qsxcd")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=668536106]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00015258789, 2.0069885, 0)
+shape = SubResource("BoxShape3D_k75aj")
