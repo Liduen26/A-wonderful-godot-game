@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://dxh02rxtdeox6"]
+
+[ext_resource type="ArrayMesh" uid="uid://c5f3a5iad6q4f" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_Tsplit.obj" id="1_cxsry"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1nslu"]
+size = Vector3(4.0214844, 4.01355, 1)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_wmd1d"]
+size = Vector3(1, 4.0403137, 2.112732)
+
+[node name="WallTsplit" type="StaticBody3D" unique_id=2125348668]
+
+[node name="WallTsplit" type="MeshInstance3D" parent="." unique_id=858600255]
+mesh = ExtResource("1_cxsry")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=2131773094]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0048828125, 2.0249634, 0)
+shape = SubResource("BoxShape3D_1nslu")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=804896035]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.0135956, 0.94792724)
+shape = SubResource("BoxShape3D_wmd1d")
