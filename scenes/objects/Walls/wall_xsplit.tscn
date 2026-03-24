@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dwfwwndjrp4i2"]
+
+[ext_resource type="ArrayMesh" uid="uid://c0kxy36utpu4r" path="res://assets/KayKit_DungeonRemastered_1.1_FREE/Assets/obj/wall_crossing.obj" id="1_2jlnc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_8oahg"]
+size = Vector3(4.008362, 4.0307007, 1)
+
+[node name="Wall_xsplit" type="StaticBody3D" unique_id=297724528]
+
+[node name="WallCrossing" type="MeshInstance3D" parent="." unique_id=1336677614]
+mesh = ExtResource("1_2jlnc")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1459315975]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.00015258789, 2.0069885, 0)
+shape = SubResource("BoxShape3D_8oahg")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="." unique_id=1077249135]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -0.00015258789, 2.0069885, 0)
+shape = SubResource("BoxShape3D_8oahg")

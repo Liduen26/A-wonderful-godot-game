@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://ctilcjbxuolgo"]
+
+[ext_resource type="PackedScene" uid="uid://ds65kxu0es2os" path="res://assets/Blender/test.blend" id="1_vte06"]
+
+[node name="stool2" type="StaticBody3D" unique_id=650485252]
+
+[node name="test" parent="." unique_id=291151851 instance=ExtResource("1_vte06")]
+transform = Transform3D(0.35, 0, 0, 0, 0.35, 0, 0, 0, 0.35, 0, 0, 0)
